@@ -9,7 +9,8 @@ Script author doesn't think about how to connect with different channels, how to
 
 # pricing
 
-Skillpub is free to use and unlimited in functionality for all channels except Slack, for Slack 10 users are free, for more users need to buy license on www.skillpub.org.
+Skillpub is free to use and unlimited in functionality for all channels except Slack, for Slack - 10 users are free, for more users need to buy license on www.skillpub.org.
 
 # installation
-  
+
+
