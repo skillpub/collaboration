@@ -22,32 +22,32 @@ The server requarements are
   Python 3.6 and above with pip
 
 If you are familiar with Python and pip you can just run the line bellow otherwise you need to spend some time googling how to install Python 3 and pip on linux server (there are a lot of good instructions).
-
+```
 sudo pip install skillpub
-
+```
 or, more reliable in some cases
-
+```
 sudo python3 -m pip install skillpub
-
+```
 Then create a folder where you will store shared scripts (we will imagen that we are building Virtual Assstant for NASA team and name this folder nasahelper, you choose your folder name)
-
+```
 mkdir nasahelper
-
+```
 Navigate to this folder
-
+```
 cd nasahelper
-
+```
 And run Skillpub
-
+```
 skillpub
-
+```
 It will create config file and folder for shared scripts (skills).
 Check it out by command
-
+```
 ls
-
+```
 Config file will looks like 
-
+```
 {
     "users": {
         "bob": {"channels": {"slack" : "bob", "telegram": 1001}},
@@ -63,7 +63,7 @@ Config file will looks like
 
     "license": "free"
 }
-
+```
 Slack token is "Bot User OAuth Access Token". To get it do the steps bellow
 
 create Slack App - https://api.slack.com/apps/new 
@@ -79,6 +79,33 @@ Install the App to a workspace:
 Telegram token is the token to access the HTTPS Telegram API. 
 You can get it from Telegram bot @BotFather. Read more [here](https://core.telegram.org/bots).
 
+So, now you can put your token into config file, keep in config channels you have token for.
+
+As you can guess Users part on config have user name and identificators of this user in different channels.
+For Slack this identificator is Slack user name. For Telegram it's user_id. 
+
+Publishers are users who have access to Skillpub Web Application (it's well known JupyterLab). Let's tolk about it laiter.
+
+So, supposing our NASA team have 5 users and only Slack channel, config can be like:
+```
+{
+    "users": {
+        "james": {"channels": {"slack" : "james"}},
+        "john": {"channels": {"slack" : "john"}},
+        "mary": {"channels": {"slack" : "mary"}},
+        "robert": {"channels": {"slack" : "robert"}},
+        "patricia": {"channels": {"slack" : "patricia"}}
+    },
+
+    "publishers": ["james","john","mary"],
+
+    "channels": {
+        "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"}
+    },
+
+    "license": "free"
+}
+```
 
 
 
