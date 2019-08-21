@@ -76,7 +76,8 @@ Install the App to a workspace:
   On this page, click a button marked Install App to your Workspace.
   You'll see a permissions authorization page, where you should click Authorize and then you will see your "Bot User OAuth Access Token".
 
-
+Telegram token is the token to access the HTTPS Telegram API. 
+You can get it from Telegram bot @BotFather. Read more [here](https://core.telegram.org/bots).
 
 
 
