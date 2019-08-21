@@ -14,7 +14,7 @@ Skillpub is free to use and unlimited in functionality for all channels except S
 # use cases
 
 
-# installation
+# quickstart
 
 The Skillpub is distributed as a Python package on the Python Package Index (PyPI) and hosted on your server. 
 The server requarements are 
@@ -41,7 +41,7 @@ And run Skillpub
 
 skillpub
 
-
+It will 
 
 
 
