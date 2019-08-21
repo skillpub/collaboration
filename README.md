@@ -41,7 +41,41 @@ And run Skillpub
 
 skillpub
 
-It will 
+It will create config file and folder for shared scripts (skills).
+Check it out by command
+
+ls
+
+Config file will looks like 
+
+{
+    "users": {
+        "bob": {"channels": {"slack" : "bob", "telegram": 1001}},
+        "alice": {"channels": {"slack" : "alice" , "telegram": 1002}}
+    },
+
+    "publishers": ["bob"],
+
+    "channels": {
+        "slack": {"token": "xoxb-XXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXX"},
+        "telegram": {"token": "XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}
+    },
+
+    "license": "free"
+}
+
+Slack token is "Bot User OAuth Access Token". To get it do the steps bellow
+
+create Slack App - https://api.slack.com/apps/new 
+create a Bot User for this App:
+  Head to your [app's settings page](https://api.slack.com/apps) and click the Bot Users feature in the navigation menu.
+  You'll be presented with a button marked Add a Bot User, and when you click on it, you'll see a screen where you can configure your app's bot user
+  Once you've completed these fields, click the Add Bot User button and then Save Changes.
+Install the App to a workspace:
+  On your [app's settings page](https://api.slack.com/apps) again, click the OAuth & Permissions settings item in the navigation menu.
+  On this page, click a button marked Install App to your Workspace.
+  You'll see a permissions authorization page, where you should click Authorize and then you will see your "Bot User OAuth Access Token".
+
 
 
 
