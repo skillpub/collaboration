@@ -11,6 +11,14 @@ Script author doesn't think about how to connect with different channels, how to
 
 Skillpub is free to use and unlimited in functionality for all channels except Slack, for Slack - 10 users are free, for more users need to buy license on www.skillpub.org.
 
+# use cases
+
+
 # installation
+
+Skillpub requares Linux machine with Python version 3.6 and above. If you are familiar with Python and PyPi 
+you can just run line bellow or you need to spend some time googling "install python 3 and pip on linux"
+
+sudo pip install skillpub
 
 
