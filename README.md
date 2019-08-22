@@ -121,6 +121,6 @@ That is all for Quickstart. Just a few poins to add:
  - file name - is command to run
  - first line in file in triple quote - is skill help, text to your bot ```help``` to see it
  - text to your bot ```publisher```, or just ```pub``` to get a link to Skillpub Web Application ([JupyterLab](https://jupyterlab.readthedocs.io)), check it out. Remember you must be in publishers list in config.  
- - to manage access to scripts put them to subfolders in folder skills, and add subfolder name to users groups like this ```"james": {"groups":"subfolder name", "channels": {"slack" : "james"}}```
+ - to manage access to scripts put them to subfolders in folder skills, and add subfolder name to users groups like this ```"james": {"groups":["subfolder 1","subfolder 2"], "channels": {"slack" : "james"}}```
  
 For more details and examples go to our Tutorial. Thanks for attention, see you.
