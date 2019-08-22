@@ -1,11 +1,11 @@
 # What is it?
 
-Skillpub is technology and collaboration tool for personal or team tasks automation and sharing automated tasks within team or entire organization through channels like Slack, email, Telegram, and others. Task automation and sharing improves productivity, mobility and engagement throughout an organization, it provides base for building a Virtual Assistant for team. With every automated and shared task employees are getting more and more free to complete creative and responsible tasks while the Virtual Assistant handle routine tasks.    
+Skillpub is technology and collaboration tool for personal or team tasks automation and sharing automated tasks within team or entire organization through channels like Slack, email, Telegram, and others. Task automation and sharing improves productivity, mobility and engagement throughout an organization, it provides base for building a Virtual Assistant for teams. With every automated and shared task employees are getting more and more free to complete creative and responsible tasks while the Virtual Assistant handle routine tasks.    
 
-# core technology 
+#  Core Technology 
 
-The technology is to take any script writed in high level language (Python), analize its inputs, prints, images or graphs display, other interactions with user and build connectors to this script from channles like Slack, email, Telegram, and others. Imagen it like you write your skill in script and with no any changes give it to software robot. And from that moment it is his skill, you and your colugues can ask him any time to run this skill.
-As a script author you don't think about how to connect with different channels, how to control access, how to monitor that script works fine when colegues run it, how to save logs, how to balance load if there are too much coleagues run this scripts and so on, basicly author do nothing to prepare script for sharing, no changes to code, Skillpub does all of this stuff. Author just drop script to Skillpub platform and tell to Skillpub which colleagues have the right to run a script.
+The technology is to take any script writed in high level language (Python), analize its inputs, outputs, images or graphs display, other interactions with user and build connectors to this script from channles like Slack, email, Telegram, and others. Imagine that you described your skill as a script and and without changing anything gave it to software robot. And from that moment it is his skill, you and your colugues can ask him any time to run this skill and give a results.
+As a script author you don't think about how to connect with different channels, how to control access, how to monitor that script works fine when colegues run it, how to save logs, how to balance load if there are too much coleagues run this scripts and so on, Skillpub does all of this stuff, author don't even think about what is that software robot, how it works, author do nothing to prepare script for sharing, no changes to code, Skillpub will understand everything by itself. Author just drop script to Skillpub platform and tell to Skillpub which colleagues have the right to run a script.
 
 # pricing
 
@@ -21,7 +21,7 @@ The server requarements are
   Linux machine (CentOS, Ubuntu, Debian, ... )
   Python 3.6 and above with pip
 
-If you are familiar with Python and pip you can just run the line bellow otherwise you need to spend some time googling how to install Python 3 and pip on linux server (there are a lot of good instructions).
+If you are familiar with Python and pip you can just run the line bellow otherwise you need to spend some time googling how to install Python 3 and pip on linux server.
 ```
 sudo pip install skillpub
 ```
@@ -69,7 +69,8 @@ Slack token is "Bot User OAuth Access Token". To get it do the steps bellow
 create Slack App - https://api.slack.com/apps/new 
 create a Bot User for this App:
   Head to your [app's settings page](https://api.slack.com/apps) and click the Bot Users feature in the navigation menu.
-  You'll be presented with a button marked Add a Bot User, and when you click on it, you'll see a screen where you can configure your app's bot user
+  You'll be presented with a button marked Add a Bot User, and when you click on it, you'll see a screen where you can configure your app's bot user.
+  The important here - Display name. We choose NasaHelper. You choose your.
   Once you've completed these fields, click the Add Bot User button and then Save Changes.
 Install the App to a workspace:
   On your [app's settings page](https://api.slack.com/apps) again, click the OAuth & Permissions settings item in the navigation menu.
