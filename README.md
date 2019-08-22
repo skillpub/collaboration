@@ -85,7 +85,7 @@ So, now you can put your token into config file, keep in config channels you hav
 As you can guess Users part on config have user name and identificators of this user in different channels.
 For Slack this identificator is Slack user name. For Telegram it's user_id. 
 
-Publishers are users who have access to Skillpub Web Application (it's well known JupyterLab). Let's tolk about it laiter.
+Publishers are users who have access to Skillpub Web Application to work with scripts (it's well known [JupyterLab](https://jupyterlab.readthedocs.io)).
 
 So, supposing our NASA team have 5 users and only Slack channel, config can be like:
 ```
@@ -109,10 +109,18 @@ So, supposing our NASA team have 5 users and only Slack channel, config can be l
 ```
 Config is ready, RUN ```skillpub```.
 
-Go to your Slack messenger, left menu, press + in section Apps or Direct Messages, find your bot (our is @NasaHelper) and open chat whith it. It should be online (little circle next to name should be green).
+Go to your Slack messenger, left menu, press + in section Apps or Direct Messages, find your bot (our is NasaHelper) and open chat whith it. It should be online (little circle next to name should be green).
 
+Text to your bot ```hello```, you'll see the answer.
 
+Now go to folder skill (as you remember it was created when we first time run Skillpub).
+You will see hello.py script, open it, you'll see the code, play whith it.
 
-
-
-
+That is all for Quickstart. Just a few poins to add:
+ - Pyhton file in folder skills can be run from channel (Slack in our example)
+ - file name - is command to run
+ - first line in file in triple quote - is skill help, text to your bot ```help``` to see it
+ - text to your bot ```publisher```, or just ```pub``` to get a link to Skillpub Web Application ([JupyterLab](https://jupyterlab.readthedocs.io)), check it out. Remember you must be in publishers list in config.  
+ - to manage access to scripts put them to subfolders in folder skills, and add subfolder name to users groups like this ```"james": {"groups":"subfolder name", "channels": {"slack" : "james"}}```
+ 
+For more details and examples go to our Tutorial. Thanks for attention, see you.
