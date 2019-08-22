@@ -47,7 +47,7 @@ Check it out by command
 ls
 ```
 Config file will looks like 
-```Perl
+```json
 {
     "users": {
         "bob": {"channels": {"slack" : "bob", "telegram": 1001}},
@@ -88,7 +88,7 @@ For Slack this identificator is Slack user name. For Telegram it's user_id.
 Publishers are users who have access to Skillpub Web Application to work with scripts (it's well known [JupyterLab](https://jupyterlab.readthedocs.io)).
 
 So, supposing our NASA team have 5 users and only Slack channel, config can be like:
-```javascript
+```json
 {
     "users": {
         "james": {"channels": {"slack" : "james"}},
