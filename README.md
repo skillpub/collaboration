@@ -47,7 +47,7 @@ Check it out by command
 ls
 ```
 Config file will looks like 
-```
+```json
 {
     "users": {
         "bob": {"channels": {"slack" : "bob", "telegram": 1001}},
@@ -88,7 +88,7 @@ For Slack this identificator is Slack user name. For Telegram it's user_id.
 Publishers are users who have access to Skillpub Web Application to work with scripts (it's well known [JupyterLab](https://jupyterlab.readthedocs.io)).
 
 So, supposing our NASA team have 5 users and only Slack channel, config can be like:
-```
+```json
 {
     "users": {
         "james": {"channels": {"slack" : "james"}},
@@ -121,6 +121,6 @@ That is all for Quickstart. Just a few poins to add:
  - file name - is command to run
  - first line in file in triple quote - is skill help, text to your bot ```help``` to see it
  - text to your bot ```publisher```, or just ```pub``` to get a link to Skillpub Web Application ([JupyterLab](https://jupyterlab.readthedocs.io)), check it out. Remember you must be in publishers list in config.  
- - to manage access to scripts put them to subfolders in folder skills, and add subfolder name to users groups like this ```"james": {"groups":["subfolder 1","subfolder 2"], "channels": {"slack" : "james"}}```
+ - to manage access to scripts put them to subfolders in folder skills, and add subfolder name to users groups like this ```json "james": {"groups":["subfolder 1","subfolder 2"], "channels": {"slack" : "james"}}```
  
 For more details and examples go to our Tutorial. Thanks for attention, see you.
