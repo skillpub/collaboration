@@ -48,22 +48,6 @@ Check it out by command
 
 Config file will looks like 
 
->{
->    "users": {
->        "bob": {"channels": {"slack" : "bob", "telegram": 1001}},
->        "alice": {"channels": {"slack" : "alice" , "telegram": 1002}}
->    },
->
->    "publishers": ["bob"],
->
->    "channels": {
->        "slack": {"token": "xoxb-XXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXX"},
->        "telegram": {"token": "XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}
->    },
->
->    "license": "free"
->}
-
 ```json
 {
     "users": {
