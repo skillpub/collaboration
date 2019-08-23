@@ -48,6 +48,7 @@ ls
 ```
 Config file will looks like 
 
+<div>
 <p>{</p>
 <pre>    <span class="pl-s"><span class="pl-pds">"</span>users<span class="pl-pds">"</span></span>: {
         <span class="pl-s"><span class="pl-pds">"</span>bob<span class="pl-pds">"</span></span>: {<span class="pl-s"><span class="pl-pds">"</span>channels<span class="pl-pds">"</span></span>: {<span class="pl-s" style="color: #339966;"><span class="pl-pds">"</span>slack<span class="pl-pds">"</span></span> : <span class="pl-s" style="color: #ff0000;"><span class="pl-pds">"</span>bob<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>telegram<span class="pl-pds">"</span></span>: <span class="pl-c1">1001</span>}},
@@ -63,6 +64,7 @@ Config file will looks like
 
     <span class="pl-s"><span class="pl-pds">"</span>license<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>free<span class="pl-pds">"</span></span>
 }</pre>
+</div>
 
 ```json
 {
