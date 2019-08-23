@@ -90,7 +90,7 @@ Publishers are users who have access to Skillpub Web Application to work with sc
 
 So, supposing our NASA team have 5 users and only Slack channel, config can be like:
 
-```json
+```js
 {
     "users": {
         "james": {"channels": {"slack" : "james"}},
