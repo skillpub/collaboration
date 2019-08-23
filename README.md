@@ -73,7 +73,7 @@ Config file will looks like
     "license": "free"
 }
 ```
-Slack token is **"Bot User OAuth Access Token"** in terms of Slack documentation. To get it do the steps bellow
+**Slack token** is **"Bot User OAuth Access Token"** in terms of Slack documentation. To get it do the steps bellow
 
 - Create **Slack App** - https://api.slack.com/apps/new. 
 - Create a **Bot User** for this App:
@@ -86,8 +86,8 @@ Slack token is **"Bot User OAuth Access Token"** in terms of Slack documentation
   - On this page, click a button marked **Install App to your Workspace**.
   - You'll see a permissions authorization page, where you should click **Authorize** and then you will see your **"Bot User OAuth Access Token"**.
 
-Telegram token is the token to access the HTTPS Telegram API. 
-You can get it from Telegram bot @BotFather. Read more [here](https://core.telegram.org/bots).
+**Telegram token** is the token to access the HTTPS Telegram API. 
+You can get it from **Telegram bot [BotFather](https://telegram.me/botfather)**. Read more [here](https://core.telegram.org/bots).
 
 So, now you can put your token into config file, keep in config channels you have token for.
 
