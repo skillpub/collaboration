@@ -123,7 +123,7 @@ Go to your **Slack messenger**, left menu, press :heavy_plus_sign: in section **
 
 Text to your bot ```hello```, you'll see the answer.
 
-Now go to folder *skill* (as you remember it was created when we first time run Skillpub).
+Now go to folder *skills* (as you remember it was created when we first time run Skillpub).
 You will see *hello.py* script, open it, you'll see the code, play whith it. Skillpub will apply changes automatically when you save file.
 
 That is all for Quickstart, all other thing in our Tutorial. Just a few poins to add here:
@@ -134,4 +134,4 @@ That is all for Quickstart, all other thing in our Tutorial. Just a few poins to
  - to manage access to scripts put them to subfolders in folder skills, and add subfolder name to users groups like this ```"james": {"groups":["subfolder 1","subfolder 2"], "channels": {"slack" : "james"}}```
  - to pass arguments to your script text them after command, like this ```hello blabla bla```, in script you can access them as usual for Python - ```sys.argv```
  
-For more details and examples go to our Tutorial. Thanks for attention, see you.
+For more details and examples go to our Tutorial. Thanks for attention, see you :wave:
