@@ -14,10 +14,11 @@ The Skillpub is free to use and unlimited in functionality :tada: for all channe
 # For whom 
 
 For teams who are in charge of Servers, Services on these Servers, API's, Data Bases, Analytical reports and other information technology items. 
-The 
- - fetch diagnostic information from the multiple data sources, gathering metrics/logs and analyzing them 
- - to take an action in case of accident, rerouting users requests, servers rebooting, lounching new instances, and many others
- - 
+
+ - to fetch diagnostic information from the multiple data sources, gathering metrics/logs and analyzing them 
+ - to take an action in case of accident, rerouting users requests, servers rebooting, lounching new instances, and many other actions
+ - to give an easy access through messagers to your teams APIs for teammembers and for other coleagues
+ - to provide a reports by the request in messengers, reports with any data like graphs  
   
 
 # Quickstart
