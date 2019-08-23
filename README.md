@@ -16,7 +16,7 @@ The Skillpub is free to use and unlimited in functionality :tada: for all channe
 
 # Quickstart
 
-The Skillpub is distributed as a Python package on the Python Package Index (PyPI) and hosted on your server. 
+The Skillpub is **distributed :floppy_disk: as a Python package** on the Python Package Index (PyPI) and hosted on your server :computer:. 
 The server requarements are 
   Linux machine (CentOS, Ubuntu, Debian, ... )
   Python 3.6 and above with pip
