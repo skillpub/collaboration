@@ -119,18 +119,19 @@ So, supposing our NASA team have 5 users and only Slack channel, config can be l
 ```
 Config is ready, RUN ```skillpub``` :exclamation:
 
-Go to your Slack messenger, left menu, press + in section Apps or Direct Messages, find your bot (our is NasaHelper) and open chat whith it. It should be online (little circle next to name should be green).
+Go to your **Slack messenger**, left menu, press :heavy_plus_sign: in section **Apps** or **Direct Messages**, find your bot (our is *NasaHelper*) and open chat whith it. It should be online (little circle next to name should be green).
 
 Text to your bot ```hello```, you'll see the answer.
 
-Now go to folder skill (as you remember it was created when we first time run Skillpub).
-You will see hello.py script, open it, you'll see the code, play whith it. Skillpub will apply changes automatically when you save file.
+Now go to folder *skill* (as you remember it was created when we first time run Skillpub).
+You will see *hello.py* script, open it, you'll see the code, play whith it. Skillpub will apply changes automatically when you save file.
 
-That is all for Quickstart. Just a few poins to add:
- - Pyhton file in folder skills can be run from channel (Slack in our example)
+That is all for Quickstart, all other thing in our Tutorial. Just a few poins to add here:
+ - Pyhton file in folder *skills* can be run from channel (Slack in our example)
  - file name - is command to run
  - first line in file in triple quote - is skill help, text to your bot ```help``` to see it
  - text to your bot ```publisher```, or just ```pub``` to get a link to Skillpub Web Application ([JupyterLab](https://jupyterlab.readthedocs.io)), check it out. Remember you must be in publishers list in config.  
  - to manage access to scripts put them to subfolders in folder skills, and add subfolder name to users groups like this ```"james": {"groups":["subfolder 1","subfolder 2"], "channels": {"slack" : "james"}}```
+ - to pass arguments to your script text them after command, like this ```hello blabla bla```, in script you can access them as usual for Python - ```sys.argv```
  
 For more details and examples go to our Tutorial. Thanks for attention, see you.
