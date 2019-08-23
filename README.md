@@ -11,8 +11,14 @@ As a script author you don't think about how to connect with different channels,
 
 The Skillpub is free to use and unlimited in functionality :tada: for all channels except Slack, **for Slack - :keycap_ten: users are free**, for more users need to buy license on www.skillpub.org.
 
-# Use Cases
+# For whom 
 
+For teams who are in charge of Servers, Services on these Servers, API's, Data Bases, Analytical reports and other information technology items. 
+The 
+ - fetch diagnostic information from the multiple data sources, gathering metrics/logs and analyzing them 
+ - to take an action in case of accident, rerouting users requests, servers rebooting, lounching new instances, and many others
+ - 
+  
 
 # Quickstart
 
