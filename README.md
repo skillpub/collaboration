@@ -1,6 +1,6 @@
 # What is it:question:
 
-Skillpub is **technology and collaboration tool** for personal or team **tasks automation and sharing** automated tasks within team or entire organization through channels like Slack, Telegram, and others. Task automation and sharing boost :rocket: productivity, mobility and engagement, provide base for **building a Virtual Assistant** for you, your team or an organization. With every automated and shared task people are getting more and more free to complete creative and responsible tasks :smirk: while the Virtual Assistant handle routine tasks :man_technologist:.    
+The Skillpub is **technology and collaboration tool** for personal or team **tasks automation and sharing** automated tasks within team or entire organization through channels like Slack, Telegram, and others. Task automation and sharing boost :rocket: productivity, mobility and engagement, provide base for **building a Virtual Assistant** for you, your team or an organization. With every automated and shared task people are getting more and more free to complete creative and responsible tasks :smirk: while the Virtual Assistant handle routine tasks :man_technologist:.    
 
 #  Core Technology :gem:
 
@@ -9,7 +9,7 @@ As a script author you don't think about how to connect with different channels,
 
 # Pricing 
 
-Skillpub is free to use and unlimited in functionality :tada: for all channels except Slack, **for Slack - :keycap_ten: users are free**, for more users need to buy license on www.skillpub.org.
+The Skillpub is free to use and unlimited in functionality :tada: for all channels except Slack, **for Slack - :keycap_ten: users are free**, for more users need to buy license on www.skillpub.org.
 
 # Use Cases
 
@@ -22,6 +22,9 @@ The server requarements are
   Python 3.6 and above with pip
 
 If you are familiar with Python and pip you can just run the line bellow otherwise you need to spend some time googling how to install Python 3 and pip on linux server.
+
+>**sudo pip install** *skillpub*
+
 ```
 sudo pip install skillpub
 ```
