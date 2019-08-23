@@ -23,7 +23,9 @@ The server requarements are
 
 If you are familiar with Python and pip you can just run the line bellow otherwise you need to spend some time googling how to install Python 3 and pip on linux server.
 
->**sudo pip install** *skillpub*
+```shell
+sudo pip install skillpub
+```
 
 or, more reliable in some cases
 
