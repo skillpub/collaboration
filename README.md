@@ -123,10 +123,10 @@ Go to your **Slack messenger**, left menu, press :heavy_plus_sign: in section **
 
 Text to your bot ```hello```, you'll see the answer.
 
-Now go to folder *skills* (as you remember it was created when we first time run Skillpub).
+Now go to the folder *skills* (as you remember it was created when we first time run Skillpub).
 You will see *hello.py* script, open it, you'll see the code, play whith it. Skillpub will apply changes automatically when you save file.
 
-That is all for Quickstart, all other thing in our Tutorial. Just a few poins to add here:
+That is all for Quickstart, all other things in our Tutorial. Just a few poins to add here:
  - Pyhton file in folder *skills* can be run from channel (Slack in our example)
  - file name - is command to run
  - first line in file in triple quote - is skill help, text to your bot ```help``` to see it
