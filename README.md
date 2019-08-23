@@ -89,7 +89,7 @@ Config file will looks like
 **Telegram token** is the token to access the HTTPS Telegram API. 
 You can get it from **Telegram bot [BotFather](https://telegram.me/botfather)**. Read more [here](https://core.telegram.org/bots).
 
-So, now you can put your token into config file, keep in config channels you have token for.
+So, now you can put your token into config file.
 
 As you can guess Users part on config have user name and identificators of this user in different channels.
 For Slack this identificator is Slack user name. For Telegram it's user_id. 
