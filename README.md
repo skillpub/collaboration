@@ -1,8 +1,12 @@
 <table><tr><td>
 <pre>
-**Hello**,
+<style
+  type="text/css">
+h1 {color:red;}
 
-_world_.
+p {color:blue;}
+</style>
+<p>okay</p>
 </pre>
 </td></tr></table>
 
