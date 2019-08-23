@@ -47,7 +47,7 @@ Check it out by command
 ls
 ```
 Config file will looks like 
-```ruby
+```SQL
 {
     "users": {
         "bob": {"channels": {"slack" : "bob", "telegram": 1001}},
