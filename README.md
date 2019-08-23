@@ -1,4 +1,10 @@
-<style type="text/css">h1 {color:red;} p {color:blue;} </style> okay
+<table><tr><td>
+<pre>
+**Hello**,
+
+_world_.
+</pre>
+</td></tr></table>
 
 # What is it?
 
