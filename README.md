@@ -16,7 +16,7 @@ The Skillpub is free to use and unlimited in functionality :tada: for all channe
 
 # Quickstart
 
-The Skillpub is distributed :gift: as a **Python package** on the Python Package Index (PyPI) and hosted on your server. 
+The Skillpub is distributed as a **Python package** on the Python Package Index (PyPI) and hosted on your server. 
 The server requarements are 
   Linux machine (CentOS, Ubuntu, Debian, ... )
   Python 3.6 and above with pip
@@ -33,7 +33,7 @@ or, more reliable in some cases
 sudo python3 -m pip install skillpub
 ```
 
-Then create a folder where you will store shared scripts (we will imagen that we are building Virtual Assstant for NASA team and name this folder nasahelper, you choose your folder name)
+Then create a folder where you will store shared scripts (we will imagen that we are building *Virtual Assstant for NASA team* and name this folder *nasahelper*, you choose your folder name)
 
 ```
 mkdir nasahelper
@@ -51,7 +51,7 @@ And run Skillpub
 skillpub
 ```
 
-It will create config file and folder for shared scripts (skills).
+It will create config file and folder for shared scripts (*skills*).
 Check it out by command `ls` and then `cat config.json`
 
 Config file will looks like 
@@ -75,16 +75,16 @@ Config file will looks like
 ```
 Slack token is **"Bot User OAuth Access Token"** in terms of Slack documentation. To get it do the steps bellow
 
-create Slack App - https://api.slack.com/apps/new 
-create a Bot User for this App:
-  Head to your [app's settings page](https://api.slack.com/apps) and click the Bot Users feature in the navigation menu.
-  You'll be presented with a button marked Add a Bot User, and when you click on it, you'll see a screen where you can configure your app's bot user.
-  The important here - Display name. We choose NasaHelper. You choose your.
-  Once you've completed these fields, click the Add Bot User button and then Save Changes.
-Install the App to a workspace:
-  On your [app's settings page](https://api.slack.com/apps) again, click the OAuth & Permissions settings item in the navigation menu.
-  On this page, click a button marked Install App to your Workspace.
-  You'll see a permissions authorization page, where you should click Authorize and then you will see your "Bot User OAuth Access Token".
+- Create **Slack App** - https://api.slack.com/apps/new. 
+- Create a **Bot User** for this App:
+  - Head to your [app's settings page](https://api.slack.com/apps) and click the **Bot Users** feature in the navigation menu.
+  - You'll be presented with a button marked **Add a Bot User**, and when you click on it, you'll see a screen where you can configure your app's bot user.
+  - The important here - **Display name**. We choose *NasaHelper*. You choose your.
+  - Once you've completed these fields, click the **Add Bot User** button and then **Save Changes**.
+- Install the **App to a workspace**:
+  - On your [app's settings page](https://api.slack.com/apps) again, click the **OAuth & Permissions** settings item in the navigation menu.
+  - On this page, click a button marked **Install App to your Workspace**.
+  - You'll see a permissions authorization page, where you should click **Authorize** and then you will see your **"Bot User OAuth Access Token"**.
 
 Telegram token is the token to access the HTTPS Telegram API. 
 You can get it from Telegram bot @BotFather. Read more [here](https://core.telegram.org/bots).
