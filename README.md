@@ -1,15 +1,4 @@
-<style
-  type="text/css">
-h1 {color:red;}
-p {color:blue;}
-</style>
-<table><tr><td>
-<pre>
-<p>okay</p>
-</pre>
-</td></tr></table>
-
-# What is it?
+# What is it:question:
 
 Skillpub is technology and collaboration tool for personal or team tasks automation and sharing automated tasks within team or entire organization through channels like Slack, email, Telegram, and others. Task automation and sharing boost :rocket: productivity, mobility and engagement, provide base for building a Virtual Assistant for you, your team or an organization. With every automated and shared task people are getting more and more free to complete creative and responsible tasks while the Virtual Assistant handle routine tasks.    
 
