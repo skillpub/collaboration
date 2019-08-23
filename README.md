@@ -48,24 +48,9 @@ ls
 ```
 Config file will looks like 
 
-<pre>{<span class="pl-s"><span class="pl-pds">"</span>users<span class="pl-pds">"</span></span>: {
-        <span class="pl-s"><span class="pl-pds">"</span>bob<span class="pl-pds">"</span></span>: {<span class="pl-s"><span class="pl-pds">"</span>channels<span class="pl-pds">"</span></span>: {<span class="pl-s" style="color: #339966;"><span class="pl-pds">"</span>slack<span class="pl-pds">"</span></span> : <span class="pl-s" style="color: #ff0000;"><span class="pl-pds">"</span>bob<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>telegram<span class="pl-pds">"</span></span>: <span class="pl-c1">1001</span>}},
-        <span class="pl-s"><span class="pl-pds">"</span>alice<span class="pl-pds">"</span></span>: {<span class="pl-s"><span class="pl-pds">"</span>channels<span class="pl-pds">"</span></span>: {<span class="pl-s" style="color: #ff0000;"><span class="pl-pds">"</span>slack<span class="pl-pds">"</span></span> : <span class="pl-s" style="color: #ff0000;"><span class="pl-pds">"</span>alice<span class="pl-pds">"</span></span> , <span class="pl-s"><span class="pl-pds">"</span>telegram<span class="pl-pds">"</span></span>: <span class="pl-c1">1002</span>}}
-    },
-
-    <span class="pl-s"><span class="pl-pds">"</span>publishers<span class="pl-pds">"</span></span>: [<span class="pl-s"><span class="pl-pds">"</span>bob<span class="pl-pds">"</span></span>],
-
-    <span class="pl-s"><span class="pl-pds">"</span>channels<span class="pl-pds">"</span></span>: {
-        <span class="pl-s"><span class="pl-pds">"</span>slack<span class="pl-pds">"</span></span>: {<span class="pl-s"><span class="pl-pds">"</span>token<span class="pl-pds">"</span></span>: <span class="pl-s" style="color: #ff0000;"><span class="pl-pds">"</span>xoxb-XXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXX<span class="pl-pds">"</span></span>},
-        <span class="pl-s"><span class="pl-pds">"</span>telegram<span class="pl-pds">"</span></span>: {<span class="pl-s"><span class="pl-pds">"</span>token<span class="pl-pds">"</span></span>: <span class="pl-s" style="color: #ff0000;"><span class="pl-pds">"</span>XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<span class="pl-pds">"</span></span>}
-    },
-
-    <span class="pl-s"><span class="pl-pds">"</span>license<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>free<span class="pl-pds">"</span></span>
-}</pre>
-
 ```json
 {
-    "users": {
+    **"users"**: {
         "bob": {"channels": {"slack" : "bob", "telegram": 1001}},
         "alice": {"channels": {"slack" : "alice" , "telegram": 1002}}
     },
