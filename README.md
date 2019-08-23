@@ -35,21 +35,24 @@ sudo python3 -m pip install skillpub
 
 Then create a folder where you will store shared scripts (we will imagen that we are building Virtual Assstant for NASA team and name this folder nasahelper, you choose your folder name)
 
-`mkdir nasahelper`
+```
+mkdir nasahelper
+```
 
 Navigate to this folder
 
 ```
-cd
+cd nasahelper
 ```
+
 And run Skillpub
 
->**skillpub**
+```
+skillpub
+```
 
 It will create config file and folder for shared scripts (skills).
-Check it out by command
-
->**ls**
+Check it out by command `ls` and then `cat config.json`
 
 Config file will looks like 
 
@@ -70,7 +73,7 @@ Config file will looks like
     "license": "free"
 }
 ```
-Slack token is "Bot User OAuth Access Token". To get it do the steps bellow
+Slack token is **"Bot User OAuth Access Token"** in terms of Slack documentation. To get it do the steps bellow
 
 create Slack App - https://api.slack.com/apps/new 
 create a Bot User for this App:
