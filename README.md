@@ -48,9 +48,9 @@ ls
 ```
 Config file will looks like 
 
-```json
+```html
 {
-    **"users"**: {
+    "users": {
         "bob": {"channels": {"slack" : "bob", "telegram": 1001}},
         "alice": {"channels": {"slack" : "alice" , "telegram": 1002}}
     },
