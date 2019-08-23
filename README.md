@@ -117,7 +117,7 @@ So, supposing our NASA team have 5 users and only Slack channel, config can be l
     "license": "free"
 }
 ```
-Config is ready, RUN ```skillpub```.
+Config is ready, RUN ```skillpub``` :exclamation:
 
 Go to your Slack messenger, left menu, press + in section Apps or Direct Messages, find your bot (our is NasaHelper) and open chat whith it. It should be online (little circle next to name should be green).
 
