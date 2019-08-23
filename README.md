@@ -1,6 +1,6 @@
 # What is it?
 
-Skillpub is technology and collaboration tool for personal or team tasks automation and sharing automated tasks within team or entire organization through channels like Slack, email, Telegram, and others. Task automation and sharing improves productivity, mobility and engagement throughout an organization, it provides base for building a Virtual Assistant for teams. With every automated and shared task temmembers are getting more and more free to complete creative and responsible tasks while the Virtual Assistant handle routine tasks.    
+Skillpub is technology and collaboration tool for personal or team tasks automation and sharing automated tasks within team or entire organization through channels like Slack, email, Telegram, and others. Task automation and sharing boost productivity, mobility and engagement, provide base for building a Virtual Assistant for you, your team or an organization. With every automated and shared task temmembers are getting more and more free to complete creative and responsible tasks while the Virtual Assistant handle routine tasks.    
 
 #  Core Technology 
 
