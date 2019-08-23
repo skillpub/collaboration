@@ -1,11 +1,10 @@
-<table><tr><td>
-<pre>
 <style
   type="text/css">
 h1 {color:red;}
-
 p {color:blue;}
 </style>
+<table><tr><td>
+<pre>
 <p>okay</p>
 </pre>
 </td></tr></table>
