@@ -47,6 +47,23 @@ Check it out by command
 ls
 ```
 Config file will looks like 
+
+<p>{</p>
+<pre>    <span class="pl-s"><span class="pl-pds">"</span>users<span class="pl-pds">"</span></span>: {
+        <span class="pl-s"><span class="pl-pds">"</span>bob<span class="pl-pds">"</span></span>: {<span class="pl-s"><span class="pl-pds">"</span>channels<span class="pl-pds">"</span></span>: {<span class="pl-s" style="color: #339966;"><span class="pl-pds">"</span>slack<span class="pl-pds">"</span></span> : <span class="pl-s" style="color: #ff0000;"><span class="pl-pds">"</span>bob<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>telegram<span class="pl-pds">"</span></span>: <span class="pl-c1">1001</span>}},
+        <span class="pl-s"><span class="pl-pds">"</span>alice<span class="pl-pds">"</span></span>: {<span class="pl-s"><span class="pl-pds">"</span>channels<span class="pl-pds">"</span></span>: {<span class="pl-s" style="color: #ff0000;"><span class="pl-pds">"</span>slack<span class="pl-pds">"</span></span> : <span class="pl-s" style="color: #ff0000;"><span class="pl-pds">"</span>alice<span class="pl-pds">"</span></span> , <span class="pl-s"><span class="pl-pds">"</span>telegram<span class="pl-pds">"</span></span>: <span class="pl-c1">1002</span>}}
+    },
+
+    <span class="pl-s"><span class="pl-pds">"</span>publishers<span class="pl-pds">"</span></span>: [<span class="pl-s"><span class="pl-pds">"</span>bob<span class="pl-pds">"</span></span>],
+
+    <span class="pl-s"><span class="pl-pds">"</span>channels<span class="pl-pds">"</span></span>: {
+        <span class="pl-s"><span class="pl-pds">"</span>slack<span class="pl-pds">"</span></span>: {<span class="pl-s"><span class="pl-pds">"</span>token<span class="pl-pds">"</span></span>: <span class="pl-s" style="color: #ff0000;"><span class="pl-pds">"</span>xoxb-XXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXX<span class="pl-pds">"</span></span>},
+        <span class="pl-s"><span class="pl-pds">"</span>telegram<span class="pl-pds">"</span></span>: {<span class="pl-s"><span class="pl-pds">"</span>token<span class="pl-pds">"</span></span>: <span class="pl-s" style="color: #ff0000;"><span class="pl-pds">"</span>XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<span class="pl-pds">"</span></span>}
+    },
+
+    <span class="pl-s"><span class="pl-pds">"</span>license<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>free<span class="pl-pds">"</span></span>
+}</pre>
+
 ```json
 {
     "users": {
@@ -88,13 +105,6 @@ For Slack this identificator is Slack user name. For Telegram it's user_id.
 Publishers are users who have access to Skillpub Web Application to work with scripts (it's well known [JupyterLab](https://jupyterlab.readthedocs.io)).
 
 So, supposing our NASA team have 5 users and only Slack channel, config can be like:
-<table><tr><td>
-<pre>
-**Hello**,
-
-_world_.
-</pre>
-</td></tr></table>
 
 ```json
 {
