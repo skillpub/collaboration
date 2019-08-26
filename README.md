@@ -99,9 +99,9 @@ You can get it from **Telegram bot [BotFather](https://telegram.me/botfather)**.
 
 So, now you can put your token into config file.
 
-As you can guess Users part in config has user name and identificators of this user in different channels.
-For Slack this identificator is Slack user name. For Telegram it's user_id. 
-
+As you can guess **Users** part in config has user name and identificators of this user in different channels.
+For Slack this identificator is **Slack user name**. For **Telegram** it's **user_id**.
+ 
 Publishers are users who have access to Skillpub Web Application to work with scripts (it's well known [JupyterLab](https://jupyterlab.readthedocs.io)).
 
 So, supposing our NASA team have 5 users and only Slack channel, config can be like:
