@@ -132,7 +132,7 @@ Go to your **Slack messenger**, left menu, press :heavy_plus_sign: in section **
 Text to your bot ```hello```, you'll see the answer.
 
 Now go to the folder *skills* (as you remember it was created when we first time run Skillpub).
-You will see *hello.py* script, open it, you'll see the code, play whith it, use the Power :muscle: of Python. Skillpub will apply changes automatically when you save file. For training purposes we have prepared a script that could be used in NASA - [this one](skills/iss.py). Copy it to yor *skills* folder. Text to your bot `iss loocation` or `iss people` or `iss speed`, you'll see In 
+You will see *hello.py* script, open it, you'll see the code, play whith it, use the Power :muscle: of Python. Skillpub will apply changes automatically when you save file. For training purposes we have prepared a script that could be used in NASA - [this one](skills/iss.py). Copy it to yor *skills* folder. Text to your bot `iss location` or `iss speed` or `iss people`, you'll see the International Space Station current location, speed, and astronauts photos.
 
 That is all for Quickstart, all other things in our Tutorial. Just a few poins to add here:
  - Pyhton file in folder *skills* can be run from channel (Slack in our example)
