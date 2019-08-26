@@ -4,8 +4,8 @@ The Skillpub is **technology and collaboration tool** for personal or team **tas
 
 #  Core Technology :gem:
 
-The technology is to take **any script writed in high level language** (Python), analize its inputs, outputs, images or graphs display, other interactions with user and **build connectors to this script from channles like Slack, Telegram, and others**. Imagine that you described your skill as a script and without changing anything gave it to **software robot**. And from that moment it is his skill, you and your colugues can ask him any time to run this skill and give a results.
-As a script author you don't think about how to connect with different channels, how to control access, how to monitor that script works fine when colegues run it, how to save logs, how to balance load if there are too much coleagues run this scripts and so on, Skillpub does all of this stuff, author don't even think about what is that software robot, how it works, author do nothing to prepare script for sharing, Skillpub will understand everything by itself. Author **just drop script to Skillpub platform and tell to Skillpub which colleagues have the right to run a script**.
+The technology is to take **script writed in high level language** (Python), analize its inputs, outputs, images or graphs display, other interactions with user and **build connectors to this script from channles like Slack, Telegram, and others**. Imagine that you described your skill as a script and gave it to **software robot**. And from that moment it is his skill, you and your colugues can ask him any time to run this skill and give a results.
+As a script author you don't think about how to connect with different channels, how to control access, how to monitor that script works fine when colegues run it, how to save logs, how to balance load if there are too much coleagues run this scripts and so on, Skillpub does all of this stuff, author don't think about what is that software robot, how it works, Skillpub will understand script by itself. Author **just drop script to Skillpub platform and tell to Skillpub which colleagues have the right to run this script**.
 
 # Pricing 
 
