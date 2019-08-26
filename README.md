@@ -41,7 +41,7 @@ or, more reliable in some cases
 sudo python3 -m pip install skillpub
 ```
 
-Then create a folder where you will store shared scripts (we will imagen that we are building *Virtual Assstant for NASA team* and name this folder *nasahelper*, you choose your folder name)
+Then create a folder where you will build your Virtual Assstant (we will imagen that we are building *Virtual Assstant for NASA team* and name this folder *nasahelper*, you choose your folder name)
 
 ```
 mkdir nasahelper
