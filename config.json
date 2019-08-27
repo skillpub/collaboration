@@ -1,6 +1,6 @@
 {
     "users": {
-        "james": {"channels": {"slack" : "james"}},
+        "james": {"groups":["subfolder"], "channels": {"slack" : "james"}},
         "john": {"channels": {"slack" : "john"}},
         "mary": {"channels": {"slack" : "mary"}},
         "robert": {"channels": {"slack" : "robert"}},
