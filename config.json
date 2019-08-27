@@ -1,0 +1,20 @@
+json
+{
+    "users": {
+        "james": {"channels": {"slack" : "james"}},
+        "john": {"channels": {"slack" : "john"}},
+        "mary": {"channels": {"slack" : "mary"}},
+        "robert": {"channels": {"slack" : "robert"}},
+        "patricia": {"channels": {"slack" : "patricia"}}
+    },
+
+    "publishers": ["james","john","mary"],
+
+    "channels": {
+        "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"}
+    },
+    
+    "jupyter":{"host":"helper.nasa.com"},
+
+    "license": "free"
+}
