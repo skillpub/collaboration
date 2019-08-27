@@ -142,5 +142,5 @@ That is all for Quickstart, all other things in our Tutorial. Just a few poins t
  - text to your bot ```publisher```, or just ```pub``` to get a link to Skillpub Web Application ([JupyterLab](https://jupyterlab.readthedocs.io)), check it out. Remember you must be in publishers list in config. The link will be like - http://server-01p.nasa.com:8888/lab/workspaces/james/?token=a123... The hostname (server-01p.nasa.com in our example) is what Skillpub can get as a default hostname of your server. If you need to change it add to the config ```"jupyter":{"host":"your host name or IP"}```
  - to manage access to scripts put them to subfolders in folder skills, and add subfolder name to user groups like this ```"james": {"groups":["subfolder 1","subfolder 2"], "channels": {"slack" : "james"}}```
  - to pass arguments to your script text them after command, like this ```hello blabla bla```, in script you can access them as usual for Python - ```sys.argv```
- 
+
 For more details and examples go to our Tutorial. Thanks for attention, see you :wave:
