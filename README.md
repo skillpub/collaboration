@@ -10,7 +10,7 @@ As a script author you don't think about how to connect with different channels,
 
 # Pricing 
 
-The Skillpub is free to use with unlimited functionality :tada: for all channels except Slack, **for Slack - :keycap_ten: users are free**, for more users, you need to buy a license on www.skillpub.org.
+The Skillpub is free to use with unlimited functionality :tada: for all channels except Slack, **for Slack - :keycap_ten: users are free**, for more users, you need to buy a license - 359 :heavy_dollar_sign: a year for an unlimited number of users.
 
 # For whom 
 
