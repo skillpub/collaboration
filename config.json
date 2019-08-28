@@ -1,7 +1,7 @@
 {
     "users": {
-        "james": {"groups":["subfolder"], "channels": {"slack" : "james", "telegram" : 1001}},
-        "john": {"channels": {"slack" : "john"}},
+        "james": {"groups":["science","ufo_contacts"], "channels": {"slack" : "james", "telegram" : 1001}},
+        "john": {"groups":["science"], "channels": {"slack" : "john"}},
         "mary": {"channels": {"slack" : "mary"}},
         "robert": {"channels": {"slack" : "robert"}},
         "patricia": {"channels": {"slack" : "patricia"}}
