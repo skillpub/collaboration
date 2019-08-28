@@ -144,3 +144,5 @@ That is all for Quickstart, all other things in our Tutorial. Just a few poins t
  - to pass arguments to your script text them after command, like this ```hello blabla bla```, in script you can access them as usual for Python - ```sys.argv```
 
 For more details and examples go to our Tutorial. Thanks for attention, see you :wave:
+
+p.s. here is the example of config file with subfolders, host name, etc. - [config.json](config.json)
