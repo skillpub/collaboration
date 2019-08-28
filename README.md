@@ -4,24 +4,24 @@ The Skillpub is **technology and collaboration tool** for personal or team tasks
 
 #  Core Technology :gem:
 
-The technology is to take **script writed in high level language** (Python), analize its inputs, outputs, images or graphs display, other interactions with user and **build connectors to this script from channles like Slack, Telegram, and others**. Imagine that you described your skill as a script and gave it to **software robot**. And from that moment it is his skill, you and your colugues can ask him any time to run this skill and give a results.
-As a script author you don't think about how to connect with different channels, how to control access, how to monitor that script works fine when colegues run it, how to save logs, how to balance load if there are too much coleagues run this scripts and so on, Skillpub does all of this stuff, author don't think about what is that software robot, how it works, Skillpub will understand script by itself. Author **just drop script to Skillpub platform and tell to Skillpub which colleagues have the right to run this script**.
+The technology is to take **script writed in high level language** (Python), analize its inputs/outputs, images or graphs display, other interactions with user and **build connectors to this script from channles like Slack, Telegram, and others**. Imagine that you described your skill as a script and gave it to **software robot**. And from that moment it is his skill, you and your colugues can ask him any time to run this skill and give results.
+As a script author you don't think about how to connect with different channels, how to control access, how to monitor that script works fine when colegues run it, how to save logs, how to balance load if there are too many coleagues running script and so on, Skillpub does all of this so author doesn't need to think about what is that software robot, how it works, Skillpub will understand script by itself. Author **just drop script to the Skillpub platform and tell to Skillpub which colleagues have the right to run this script**.
 
 # Pricing 
 
-The Skillpub is free to use and unlimited in functionality :tada: for all channels except Slack, **for Slack - :keycap_ten: users are free**, for more users need to buy license on www.skillpub.org.
+The Skillpub is free to use with unlimited functionality :tada: for all channels except Slack, **for Slack - :keycap_ten: users are free**, for more users, you need to buy a license on www.skillpub.org.
 
 # For whom 
 
-For teams who are in charge of Servers, Services on these Servers, API's, Data Bases, Analytical reports and other information technology items. 
+For teams who are in charge of Servers, Services on Servers, API's, Data Bases, Analytical reports and other information technology items. 
 
 For tasks like
- - to fetch diagnostic information from the multiple data sources, gathering metrics/logs and analyzing them 
- - to take an action in case of accident, rerouting users requests, servers rebooting, lounching new instances, and many other actions
- - to give an easy access through messagers to your teams APIs for teammembers and for other coleagues
- - to provide a Analytical reports by the request in messengers, reports with graphs, images, tables, files, etc.
+ - to fetch diagnostic information from multiple data sources, gather metrics/logs and analyzing them 
+ - to take an action in case of incident, rerouting users requests, server rebooting, lounching new instances, and many other actions
+ - to give easy access via messengers to your teams APIs for team members and other coleagues
+ - to provide analytical reports by the request through messengers, reports with graphs, images, tables, files, etc.
  
-These things are trivial to automate and share, you can do much more with high level lenguage (like Python), rich coommunication service (like Slack) and smart script sharing platform (like Skillpub :sunglasses:). You can do amazing things for your team.
+These things are trivial to automate and share, you can do much more with high level lenguages (like Python), rich coommunication services (like Slack) and smart script sharing platforms (like Skillpub :sunglasses:). You can do amazing things for your team.
 
 # Quickstart
 
