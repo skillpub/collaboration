@@ -1,6 +1,6 @@
 {
     "users": {
-        "james": {"groups":["subfolder"], "channels": {"slack" : "james"}},
+        "james": {"groups":["subfolder"], "channels": {"slack" : "james", "telegram" : 1001}},
         "john": {"channels": {"slack" : "john"}},
         "mary": {"channels": {"slack" : "mary"}},
         "robert": {"channels": {"slack" : "robert"}},
@@ -10,7 +10,8 @@
     "publishers": ["james","john","mary"],
 
     "channels": {
-        "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"}
+        "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"},
+        "telegram": {"token": ""}
     },
     
     "jupyter": {"host": "helper.nasa.com"},
