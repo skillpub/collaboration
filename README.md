@@ -145,4 +145,4 @@ That is all for Quickstart, all other things in our Tutorial. Just a few poins t
 
 For more details and examples go to our Tutorial. Thanks for attention, see you :wave:
 
-p.s. here is the example of config file with subfolders, host name, etc. - [config.json](config.json)
+P.S. here is the example of config file with subfolders, host name, etc. - [config.json](config.json)
