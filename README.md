@@ -17,8 +17,8 @@ The Skillpub is free to use with unlimited functionality :tada: for all channels
 For teams who are in charge of Servers, Services on Servers, API's, Data Bases, Analytical reports and other information technology items. 
 
 For tasks like
- - to fetch diagnostic information from multiple data sources, gather metrics/logs and analyzing them 
- - to take an action in case of incident, rerouting users requests, server rebooting, lounching new instances, and many other actions
+ - to fetch diagnostic information from multiple data sources into messengers, gather metrics/logs and analyzing them 
+ - to take an action in case of incident right from a messenger, rerouting users requests, server rebooting, launching new instances, and many other actions
  - to give easy access via messengers to your teams APIs for team members and other coleagues
  - to provide analytical reports by the request through messengers, reports with graphs, images, tables, files, etc.
  
