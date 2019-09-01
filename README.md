@@ -22,7 +22,7 @@ For tasks like
  - to give easy access via messengers to your teams APIs for team members and other coleagues
  - to provide analytical reports by the request through messengers, reports with graphs, images, tables, files, etc.
  
-These things are trivial to automate and share, you can do much more with high level lenguages (like Python), rich coommunication services (like Slack) and smart script sharing platforms (like Skillpub :sunglasses:). You can do amazing things for your team.
+These things are trivial to automate and share, you can do much more with high level languages (like Python), rich coommunication services (like Slack) and smart script sharing platforms (like Skillpub :sunglasses:). You can do amazing things for your team.
 
 # Quickstart
 
