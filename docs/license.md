@@ -55,7 +55,7 @@ representative of a company or other legal entity that will be the final and
 ultimate user of the Software, and the company or other legal entity that will
 be the final and ultimate user of the Software, if applicable.
 
-1. General
+# 1. General
 
 1.1 This EULA applies to any licenses granted to You by Skillpub for the use of
 the Software.
@@ -68,7 +68,7 @@ modifications on its website or otherwise, e.g. by using the email address used
 for the provision of the License Key. Any modifications to this EULA shall only
 apply upon acceptance by You.
 
-2. License
+# 2. License
 
 2.1 Skillpub grants You a non-exclusive, non-transferable, limited, revocable
 license to Use the Software in accordance with this EULA. Skillpub reserves all
@@ -78,7 +78,7 @@ rights not expressly granted to You.
 respect to the Software. You shall not acquire any ownership to the Software as
 result of Your purchase of the License Key or Your Use of the Software.
 
-3. Permitted use and restrictions
+# 3. Permitted use and restrictions
 
 3.1 In order to be able to install the Software and receive Updates and upgrades,
 Your computer shall have access to the Internet and shall meet the system
@@ -116,7 +116,7 @@ the terms of the applicable license(s) of the Open Source Software. You shall
 adhere to these terms and conditions, which can be found via the webpage:
 https://www.skillpub.org/acknowledgements/.
 
-4. Maintenance and support
+# 4. Maintenance and support
 
 4.1 Skillpub will notify You of any available Updates and upgrades.
 
@@ -132,7 +132,7 @@ Updates and upgrades, will be provided in an adequate way on an “as is” basi
 without any warranty, as soon as reasonably practicable, subject to
 availability of personnel.
 
-5. Use of data
+# 5. Use of data
 
 5.1 Skillpub and its subsidiaries may periodically collect and use technical and
 related data concerning the Software You have licensed, including about the
@@ -150,7 +150,7 @@ its obligations under applicable data protection law.
 #### Please see our privacy statement for more details on the processing of Your
 personal data that Skillpub has collected and received through its website.
 
-6. Disclaimer
+# 6. Disclaimer
 
 6.1 You Use the Software at Your own risk and the entire risk as to satisfactory
 quality, performance and accuracy is with You.
@@ -163,7 +163,7 @@ distributors, agents or employees shall create a warranty or in any way
 increase the scope of this warranty and You may not rely upon such information
 or advice.
 
-7. Liability limitation
+# 7. Liability limitation
 
 7.1 The liability of Skillpub and any third party that has been involved in the
 creation, production, or delivery of the Software for all damages arising out
@@ -182,7 +182,7 @@ in the event that: (i) any negligence on the part of Skillpub leads to death or
 physical injury or (ii) damages arise from the intent, willful misconduct or
 gross negligence of Skillpub or the management of Skillpub.
 
-8. Termination
+# 8. Termination
 
 8.1 This EULA will continue to be in force until the expiry or termination of the
 Full version or Free version.
@@ -205,7 +205,7 @@ and shall destroy all copies thereof.
 intended to survive termination, will remain in effect after termination of
 this EULA.
 
-9. Governing law and disputes
+# 9. Governing law and disputes
 
 9.1 This EULA shall be governed by and construed in accordance with the laws of the
 Russian Federation, excluding its conflicts of law rules.
