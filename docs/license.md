@@ -83,9 +83,9 @@ result of Your purchase of the License Key or Your Use of the Software.
 3.1 In order to be able to install the Software and receive Updates and upgrades,
 Your computer shall have access to the Internet and shall meet the system
 requirements described in the Documentation that can be found on the Webpage:
-https://www.skillpub.org/updates/.
+https://www.skillpub.org/.
 
-#### You may Use the Software on one computer only, unless You have purchased
+You may Use the Software on one computer only, unless You have purchased
 (a) a volume license or (b) more than one Full version.
 In the event You have purchased a volume license or more than one Full version,
 the number of computers You may Use the Software on shall not exceed the number
@@ -99,7 +99,7 @@ laws and shall not:
 exploit the License Key, the Full version;
 assign the License Key, the Full version without prior written approval of
 Skillpub;
-Use the Full version or Trial version for any unlawful or illegal activity, or
+Use the Full version or Free version for any unlawful or illegal activity, or
 to facilitate an unlawful or illegal activity;
 delete or alter any disclaimers, warnings, copyright or other proprietary
 notices accompanying the Software; or copy (except as otherwise provided in
@@ -114,7 +114,7 @@ Updates and upgrades.
 3.5 Certain components of the Software are Open Source Software and licensed under
 the terms of the applicable license(s) of the Open Source Software. You shall
 adhere to these terms and conditions, which can be found via the webpage:
-https://www.skillpub.org/acknowledgements/.
+https://www.skillpub.org/.
 
 # 4. Maintenance and support
 
@@ -124,8 +124,6 @@ https://www.skillpub.org/acknowledgements/.
 twelve (12) months upon purchasing the License Key for the Full version. In
 order to receive Updates after this twelve months’ period, You will need to
 renew your License Key for the Full version.
-
-#### You may need to pay an additional fee in order to be able to download an upgrade.
 
 4.3 Any maintenance and support provided by Skillpub, including the provision of
 Updates and upgrades, will be provided in an adequate way on an “as is” basis
@@ -146,9 +144,6 @@ necessary to provide the License Key, to provide maintenance and support to You
 with respect to the Software and to comply with its obligations under this
 EULA. To the extent Skillpub will process personal data, it will comply with
 its obligations under applicable data protection law.
-
-#### Please see our privacy statement for more details on the processing of Your
-personal data that Skillpub has collected and received through its website.
 
 # 6. Disclaimer
 
