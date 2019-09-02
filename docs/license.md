@@ -49,7 +49,7 @@ terms of limitations are specified on the Webpage;
  - “Updates” - any modified versions and updates of, and additions to the Software
 (excluding upgrades of the Software);
  - “Use” - the access, download, install, copy or get benefit from using the
-Software in accordance with the documentation.
+Software in accordance with the documentation;
  - “You” - you, the final and ultimate user of the Software or the authorized
 representative of a company or other legal entity that will be the final and
 ultimate user of the Software, and the company or other legal entity that will
