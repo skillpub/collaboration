@@ -31,7 +31,7 @@ The requarements are
   - Linux OS (CentOS, Ubuntu, Debian, ... ) or macOS
   - Python **3.6** and above with pip
 
-If you are familiar with Python and pip you can just run the line bellow otherwise you need to spend some time googling how to install **Python 3 and pip on Linux server**.
+If you are familiar with Python and pip you can just run the line bellow otherwise you need to spend some time googling how to install **Python 3 and pip on Linux or macOS**.
 
 ```
 sudo pip install skillpub
