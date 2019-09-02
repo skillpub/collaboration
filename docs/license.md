@@ -1,4 +1,4 @@
-End User License Agreement for Skillpub Software
+# End User License Agreement for Skillpub Software
 
 Please read this End User License Agreement (“EULA”) before You download and
 use the Software and before You purchase a License Key for the Software.
@@ -16,41 +16,41 @@ entity, and to legally bind such company or other legal entity.
 You may not accept this EULA if You are not of legal age to form a binding
 contract with Skillpub.
 
-Definitions
+# Definitions
 
 In this EULA the expressions below shall have the meaning assigned to them in
 this clause, unless the context requires otherwise:
 
-“Activate” turning the Free version into the Full version of the same
+ - “Activate”  - turning the Free version into the Full version of the same
 application with the License Key provided by Skillpub;
-“Skillpub” Skillpub Authors, Chernikov Anton;
-"Webpage" Skillpub webpage, https://www.skillpub.org;
-“Documentation” the detailed information about the Software, its features and
+ - “Skillpub” - Skillpub Authors, Chernikov Anton;
+ - "Webpage" - Skillpub webpage, https://www.skillpub.org;
+ - “Documentation” - the detailed information about the Software, its features and
 the system requirements as made available on the website of Skillpub, as
 amended from time to time;
-“License Key” a unique code provided by Skillpub, which enables You to activate
+ - “License Key” - a unique code provided by Skillpub, which enables You to activate
 the Free version by entering the code into the Software and to subsequently use
 the Software during the applicable license term;
-“Full version” the license for the Software for the term specified on the
+ - “Full version” - the license for the Software for the term specified on the
 Webpage of the store where You purchase the license, or in any applicable
 agreement concerning the purchase of the license (as stand-alone product or as
 part of a subscription) to Use the Software;
-“Open Source Software” any software that requires as a condition of use,
+ - “Open Source Software” - any software that requires as a condition of use,
 copying, modification and/or distribution of such software that such software
 or other software incorporated into, derived from or distributed with such
 software (a) be disclosed or distributed in source code form, and (b) be
 licensed for the purpose of making and/or distributing derivative works, and
 (c) be redistributable at no charge;
-“Software” any software application and/or all of the contents of the files
+ - “Software” - any software application and/or all of the contents of the files
 and/or other media, including software setup files, licensed to You by
 Skillpub, including any Updates;
-“Free version” the license for the Software for free but limited usage, the
+ - “Free version” - the license for the Software for free but limited usage, the
 terms of limitations are specified on the Webpage;
-“Updates” any modified versions and updates of, and additions to the Software
+ - “Updates” - any modified versions and updates of, and additions to the Software
 (excluding upgrades of the Software);
-“Use” the access, download, install, copy or get benefit from using the
+ - “Use” - the access, download, install, copy or get benefit from using the
 Software in accordance with the documentation.
-“You” you, the final and ultimate user of the Software or the authorized
+ - “You” - you, the final and ultimate user of the Software or the authorized
 representative of a company or other legal entity that will be the final and
 ultimate user of the Software, and the company or other legal entity that will
 be the final and ultimate user of the Software, if applicable.
