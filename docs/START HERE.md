@@ -14,4 +14,6 @@ These are more detailed topics
  - [Fetaures](features.md#features)
  - [Config](config.md#config)
 
+And these are how-to guides
+ - [ssh](guides/ssh.md#ssh)
 
