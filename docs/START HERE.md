@@ -19,6 +19,7 @@ And these are how-to guides
  - [API's](guides/api.md#apis)
  - [Data Sources](guides/data_sources.md#data-sources)
  - [Analytical Reports](guides/analytical_reports.md#analytical-reports)
- - [Zabbix](guides/zabbix.md#zabbix)
  - [Google Analytics](guides/google_analytics.md#google-analytics)
+ - [Zabbix](guides/zabbix.md#zabbix)
  - [Jenkins](guides/jenkins.md#jenkins)
+ - [Gatling](guides/gatling.md#gatling)
