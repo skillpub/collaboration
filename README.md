@@ -1,5 +1,5 @@
 
-# The Skillpub. What is it:question:
+# Skillpub. What is it:question:
 
 The Skillpub is **technology and collaboration tool** for personal or team tasks **automation and sharing** automated tasks within a team or an entire organization via Chat Apps like Slack, Telegram, and others. Task automation and sharing boosts :rocket: productivity, mobility and engagement. It provides a base for **building a Virtual Assistant** for your team or organization. With every automated and shared task people are getting free to complete creative and responsible tasks :smirk: while the Virtual Assistant handles routine tasks :man_technologist:.
 
