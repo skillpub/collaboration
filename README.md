@@ -1,28 +1,28 @@
 
 # The Skillpub. What is it:question:
 
-The Skillpub is **technology and collaboration tool** for personal or team tasks **automation and sharing** automated tasks within a team or an entire organization through channels like Slack, Telegram, and others. Task automation and sharing boosts :rocket: productivity, mobility and engagement. It provides a base for **building a Virtual Assistant** for you, your team or organization. With every automated and shared task people are getting free to complete creative and responsible tasks :smirk: while the Virtual Assistant handles routine tasks :man_technologist:.
+The Skillpub is **technology and collaboration tool** for personal or team tasks **automation and sharing** automated tasks within a team or an entire organization via Chat Apps like Slack, Telegram, and others. Task automation and sharing boosts :rocket: productivity, mobility and engagement. It provides a base for **building a Virtual Assistant** for your team or organization. With every automated and shared task people are getting free to complete creative and responsible tasks :smirk: while the Virtual Assistant handles routine tasks :man_technologist:.
 
 #  Core Technology :gem:
 
-The technology is to take **script writed in high level language** (Python), analize its inputs/outputs, images or graphs display, other interactions with user and **build connectors to this script from channles like Slack, Telegram, and others**. Imagine that you described your skill as a script and gave it to **software robot**. And from that moment it is his skill, you and your colugues can ask him any time to run this skill and give results.
-As a script author you don't think about how to connect with different channels, how to control access, how to monitor that script works fine when colegues run it, how to save logs, how to balance load if there are too many coleagues running script and so on, Skillpub does all of this so author doesn't need to think about what is that software robot, how it works, Skillpub will understand script by itself. Author **just drop script to the Skillpub platform and tell to Skillpub which colleagues have the right to run this script**.
+The technology is to take **script writed in high level language** (Python), analize its inputs/outputs, images or graphs display, other interactions with user and **build connectors to this script from Chat Apps like Slack, Telegram, and others**. Imagine that you described your skill as a script and gave it to **software robot**. And from that moment it is his skill, you and your colugues can ask him any time to run this skill and give results.
+As a script author you don't think about how to connect with different Chat Apps, how to control access, how to monitor that script works fine when colegues run it, how to save logs, how to balance load if there are too many coleagues running script and so on, Skillpub does all of this so author doesn't need to think about what is that software robot, how it works, Skillpub will understand script by itself. Author **just drop script to the Skillpub platform and tell to Skillpub which colleagues have the right to run this script**.
 
 # Pricing 
 
-The Skillpub is free to use with unlimited functionality :tada: for all channels except Slack, **for Slack - :keycap_ten: users are free**, for more users, you need to buy a license - **359 :heavy_dollar_sign: per year** for an unlimited number of users. Contact **[sales@skillpub.org](mailto:sales@skillpub.org)** to get the license.
+The Skillpub is free to use with unlimited functionality :tada: for all Chat Apps except Slack, **for Slack - :keycap_ten: users are free**, for more users, you need to buy a license - **359 :heavy_dollar_sign: per year** for an unlimited number of users. Contact **[sales@skillpub.org](mailto:sales@skillpub.org)** to get the license.
 
 # For whom 
 
-For teams who are in charge of Servers, Services on Servers, API's, Data Bases, Analytical reports and other information technology items. 
+For teams who are in charge of Servers, Applications, API's, Data Bases, Analytical reports and other information technology items. 
 
 For tasks like
- - to fetch diagnostic information from multiple data sources into messengers, gather metrics/logs and analyzing them 
- - to take an action in case of incident right from a messenger, rerouting users requests, server rebooting, launching new instances, and many other actions
- - to give easy access via messengers to your teams APIs for team members and other coleagues
- - to provide analytical reports by the request through messengers, reports with graphs, images, tables, files, etc.
+ - to fetch diagnostic information from multiple data sources into Chat App, gather metrics/logs and analyzing them 
+ - to take an action in case of incident right from a Chat App, rerouting users requests, server rebooting, launching new instances, and many other actions
+ - to give easy access via Chat App to APIs for team members and other coleagues
+ - to provide analytical reports by the request from Chat App, reports with graphs, images, tables, files, etc.
  
-These things are trivial to automate and share, you can do much more with high level languages (like Python), rich coommunication services (like Slack) and smart script sharing platforms (like Skillpub :sunglasses:). You can do amazing things for your team.
+These things are trivial to automate and share, you can do much more with Python, Chat App and smart script sharing platform - Skillpub :sunglasses:. You can do amazing things for your team.
 
 # Quickstart
 
@@ -101,12 +101,12 @@ You can get it from **Telegram bot [BotFather](https://telegram.me/botfather)**.
 
 So, now you can put your token into config file.
 
-As you can guess **Users** part in config has user name and identificators of this user in different channels.
+As you can guess **Users** part in config has user name and identificators of this user in different Chat Apps.
 For Slack this identificator is **Slack user name**. For **Telegram** it's **user_id**.
  
 Publishers are users who have access to Skillpub Web Application to work with scripts (it's well known [JupyterLab](https://jupyterlab.readthedocs.io)).
 
-So, supposing our NASA team have 5 users and only Slack channel, config can be like:
+So, supposing our NASA team have 5 users and only Slack as a Chat App, config can be like:
 
 ```json
 {
@@ -129,17 +129,17 @@ So, supposing our NASA team have 5 users and only Slack channel, config can be l
 ```
 Config is ready, RUN ```skillpub``` :exclamation:
 
-Go to your **Slack messenger**, left menu, press :heavy_plus_sign: in section **Apps** or **Direct Messages**, find your bot (our is *NasaHelper*) and open chat whith it. It should be online (little circle next to name should be green).
+Go to your **Slack application**, left menu, press :heavy_plus_sign: in section **Apps** or **Direct Messages**, find your bot (our is *NasaHelper*) and open chat whith it. It should be online (little circle next to name should be green).
 
 Text to your bot ```hello```, you'll see the answer.
 
 Now go to the folder *skills* (as you remember it was created when we first time run Skillpub).
-You will see *hello.py* script, open it, you'll see the code, play whith it, use the Power :muscle: of Python. Skillpub will apply changes automatically when you save file. For training purposes we have prepared a script that could be used in NASA - [this one](skills/iss.py). Copy it to yor *skills* folder. Text to your bot `iss location` or `iss speed` or `iss people`, you'll see the International Space Station current location, speed, and astronauts photos. As you can see in script - it's pure Python, nothing about connections with any channels. 
+You will see *hello.py* script, open it, you'll see the code, play whith it, use the Power :muscle: of Python. Skillpub will apply changes automatically when you save file. For training purposes we have prepared a script that could be used in NASA - [this one](skills/iss.py). Copy it to yor *skills* folder. Text to your bot `iss location` or `iss speed` or `iss people`, you'll see the International Space Station current location, speed, and astronauts photos. As you can see in script - it's pure Python, nothing about connections with any Chat App. 
 
 That is all for Quickstart, all other things in our Tutorial. Just a few poins to add here:
- - Pyhton file in folder *skills* can be run from channel (Slack in our example)
+ - Pyhton file in folder *skills* can be run from Chat App (Slack in our example)
  - file name - is command to run
- - first line in file in triple quote is skill help, text to your bot ```help``` to see it
+ - first line in file in triple quotes is skill description, text to your bot ```skills``` or ```help``` to see it
  - text to your bot ```publisher```, or just ```pub``` to get a link to Skillpub Web Application ([JupyterLab](https://jupyterlab.readthedocs.io)), check it out. Remember you must be in publishers list in config. The link will be like - http://server-01p.nasa.com:8888/lab/workspaces/james/?token=a123... The hostname (*server-01p.nasa.com* in our example) is what Skillpub can get as a default hostname of your server. If you need to change it add to the config ```"jupyter":{"host":"your host name or IP"}```
  - to manage access to scripts put them to subfolders in folder skills, and add subfolder name to user groups like this ```"james": {"groups":["subfolder 1","subfolder 2"], "channels": {"slack" : "james"}}```
  - to pass arguments to your script text them after command, like this ```hello blabla bla```, in script you can access them as usual for Python - ```sys.argv```
