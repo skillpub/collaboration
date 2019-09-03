@@ -15,7 +15,7 @@ These are more detailed topics
  - [Config](config.md#config)
 
 And these are how-to guides
- - [ssh](guides/ssh.md#ssh)
+ - [SSH](guides/ssh.md#ssh)
  - [API's](guides/api.md#apis)
  - [Data Sources](guides/data_sources.md#data-sources)
  - [Analytical Reports](guides/analytical_reports.md#analytical-reports)
