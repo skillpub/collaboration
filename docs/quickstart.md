@@ -75,12 +75,12 @@ You can get it from **Telegram bot [BotFather](https://telegram.me/botfather)**.
 
 So, now you can put your token into config file.
 
-As you can guess **Users** part in config has user name and identificators of this user in different channels.
+As you can guess **Users** part in config has user name and identificators of this user in different Chat Apps.
 For Slack this identificator is **Slack user name**. For **Telegram** it's **user_id**.
  
 Publishers are users who have access to Skillpub Web Application to work with scripts (it's well known [JupyterLab](https://jupyterlab.readthedocs.io)).
 
-So, supposing our NASA team have 5 users and only Slack channel, config can be like:
+So, supposing our NASA team have 5 users and only Slack as a Chat App, config can be like:
 
 ```json
 {
@@ -103,17 +103,17 @@ So, supposing our NASA team have 5 users and only Slack channel, config can be l
 ```
 Config is ready, RUN ```skillpub``` :exclamation:
 
-Go to your **Slack messenger**, left menu, press :heavy_plus_sign: in section **Apps** or **Direct Messages**, find your bot (our is *NasaHelper*) and open chat whith it. It should be online (little circle next to name should be green).
+Go to your **Slack application**, left menu, press :heavy_plus_sign: in section **Apps** or **Direct Messages**, find your bot (our is *NasaHelper*) and open chat whith it. It should be online (little circle next to name should be green).
 
 Text to your bot ```hello```, you'll see the answer.
 
 Now go to the folder *skills* (as you remember it was created when we first time run Skillpub).
-You will see *hello.py* script, open it, you'll see the code, play whith it, use the Power :muscle: of Python. Skillpub will apply changes automatically when you save file. For training purposes we have prepared a script that could be used in NASA - [this one](skills/iss.py). Copy it to yor *skills* folder. Text to your bot `iss location` or `iss speed` or `iss people`, you'll see the International Space Station current location, speed, and astronauts photos. As you can see in script - it's pure Python, nothing about connections with any channels. 
+You will see *hello.py* script, open it, you'll see the code, play whith it, use the Power :muscle: of Python. Skillpub will apply changes automatically when you save file. For training purposes we have prepared a script that could be used in NASA - [this one](skills/iss.py). Copy it to yor *skills* folder. Text to your bot `iss location` or `iss speed` or `iss people`, you'll see the International Space Station current location, speed, and astronauts photos. As you can see in script - it's pure Python, nothing about connections with any Chat App. 
 
 That is all for Quickstart, all other things in our Tutorial. Just a few poins to add here:
- - Pyhton file in folder *skills* can be run from channel (Slack in our example)
+ - Pyhton file in folder *skills* can be run from Chat App (Slack in our example)
  - file name - is command to run
- - first line in file in triple quote is skill help, text to your bot ```help``` to see it
+ - first line in file in triple quotes is skill description, text to your bot ```skills``` or ```help``` to see it
  - text to your bot ```publisher```, or just ```pub``` to get a link to Skillpub Web Application ([JupyterLab](https://jupyterlab.readthedocs.io)), check it out. Remember you must be in publishers list in config. The link will be like - http://server-01p.nasa.com:8888/lab/workspaces/james/?token=a123... The hostname (*server-01p.nasa.com* in our example) is what Skillpub can get as a default hostname of your server. If you need to change it add to the config ```"jupyter":{"host":"your host name or IP"}```
  - to manage access to scripts put them to subfolders in folder skills, and add subfolder name to user groups like this ```"james": {"groups":["subfolder 1","subfolder 2"], "channels": {"slack" : "james"}}```
  - to pass arguments to your script text them after command, like this ```hello blabla bla```, in script you can access them as usual for Python - ```sys.argv```
