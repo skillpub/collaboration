@@ -8,6 +8,6 @@ To get familiar with the product you can start by reading these topics
  - [About](about.md#skillpub-what-is-itquestion) (including prices)
  - [Quickstart](quickstart.md#quickstart)
  
-
+By using the product, you agree with our [End User License Agreement](license.md#end-user-license-agreement-for-skillpub-software).
 
 
