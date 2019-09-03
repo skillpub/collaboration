@@ -21,4 +21,4 @@ And these are how-to guides
  - [Analytical Reports](guides/analytical_reports.md#analytical-reports)
  - [Zabbix](guides/zabbix.md#zabbix)
  - [Google Analytics](guides/google_analytics.md#google-analytics)
-
+ - [Jenkins](guides/jenkins.md#jenkins)
