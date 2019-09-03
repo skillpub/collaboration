@@ -16,4 +16,9 @@ These are more detailed topics
 
 And these are how-to guides
  - [ssh](guides/ssh.md#ssh)
+ - [API's](guides/api.md#apis)
+ - [Data Sources](guides/data_sources.md#data-sources)
+ - [Analytical Reports](guides/analytical_reports.md#analytical-reports)
+ - [Zabbix](guides/zabbix.md#zabbix)
+ - [Google Analytics](guides/google_analytics.md#google-analytics)
 
