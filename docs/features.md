@@ -15,6 +15,6 @@
 - Alias for mentions in groups or channels
 - Web interface for scripts management and development
 
-## Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing
+### Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing
 
 
