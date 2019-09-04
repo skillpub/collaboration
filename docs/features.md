@@ -13,5 +13,6 @@
 - Logging
 - User access control
 - Alias for mentions in groups or channels
+- Web interface for scripts management and development
 
 
