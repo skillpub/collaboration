@@ -1,7 +1,7 @@
 
 # Features
 
-- run any py file by request from Chat App
+- run any py file by request from Chat App, no extra coding to connect script with Chat App
 - pass command line arguments from Chat App to script
 - redirect prints to Chat App
 - redirect plots to Chat App
