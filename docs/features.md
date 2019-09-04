@@ -2,12 +2,13 @@
 # Features
 
 - run any py file by request from Chat App, no extra coding to connect script with Chat App
+- supported channels : Slack, Telegram
 - pass command line arguments from Chat App to script
-- redirect prints to Chat App
-- redirect plots to Chat App
-- send attachemnts from script to Chat App
-- redirect inputs requests to Chat App
-- input files from Chat App
+- redirect prints in script to Chat App
+- redirect plots in script to Chat App
+- send files from script to Chat App as attachements
+- redirect input requests to Chat App
+- input files from Chat App to script
 - auto help generation
 - logging
 - user access management
