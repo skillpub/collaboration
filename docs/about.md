@@ -9,7 +9,7 @@ As a script author you don't think about how to connect with different Chat Apps
 
 # Pricing 
 
-The Skillpub is free to use with unlimited functionality :tada: for all Chat Apps except Slack, **for Slack - :keycap_ten: users are free**, for more users, you need to buy a license - **359 :heavy_dollar_sign: per year** for an unlimited number of users. Contact **[sales@skillpub.org](mailto:sales@skillpub.org)** to get the license.
+The Skillpub is free to use with unlimited functionality :tada: for all Chat Apps except Slack, **for Slack - :keycap_ten: users are free**, for more users, you need to buy a license - **59:heavy_dollar_sign:per month** for an unlimited number of users. Contact **[sales@skillpub.org](mailto:sales@skillpub.org)** to get the license.
 
 # For whom 
 
