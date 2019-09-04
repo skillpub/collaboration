@@ -1,7 +1,7 @@
 
 # Features
 
-- Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing 
+- (Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing)[#]
 - Supported Chat Apps : Slack, Telegram
 - Command line arguments from Chat App to script
 - Text outputs redirection to Chat App
