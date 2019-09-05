@@ -22,8 +22,9 @@
 
 print("Hello from Outerspace! :wave:")
 ```
+<img src="images/hello.png" width="48">
 
-![hello.png](images/hello.png =200x100)
+![hello.png](images/hello.png)
 
 #### Supported Chat Apps : Slack, Telegram
 
