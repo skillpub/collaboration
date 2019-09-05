@@ -17,17 +17,13 @@
 
 #### Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing
 
-
-```python '''The "Hello!" Skill''' print("Hello from Outerspace! :wave:") ```| ![hello.png](images/hello.png)
------------- | ------------------------------
-
 ```python
 '''The "Hello!" Skill'''
 
 print("Hello from Outerspace! :wave:")
 ```
 
-![hello.png](images/hello.png)
+![hello.png](images/hello.png){:height="100px" width="100px"}
 
 #### Supported Chat Apps : Slack, Telegram
 
