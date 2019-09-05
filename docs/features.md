@@ -28,9 +28,22 @@ And how it looks in Slack
 
 <img src="images/hello.png" width="30%" hight="30%">
 
+### Supported Chat Apps : Slack, Telegram
+
+```json
+{ 
+    "users": {
+        "james": {"channels": {"slack" : "james", "telegram": 1001}}
+    },
+    
+    "channels": {
+        "telegram": {"token": "123456789:QWER_1234567890qwertyu-iopasdfghjklz"},
+        "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456}
+    }
+}
+```
 
 
-#### Supported Chat Apps : Slack, Telegram
 
 #### Command line arguments from Chat App to script
 
