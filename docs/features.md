@@ -8,7 +8,7 @@
 - [Images/graphs redirection to Chat App](#imagesgraphs-redirection-to-chat-app)
 - [Sending files from the script to Chat App as attachments](#sending-files-from-the-script-to-chat-app-as-attachments)
 - [Input requests redirection to Chat App](#input-requests-redirection-to-chat-app)
-- [Inputing files from Chat App to script]
+- [Inputing files from Chat App to script](#inputing-files-from-chat-app-to-script)
 - [Automatic "help" generation]
 - [Logging]
 - [User access control]
