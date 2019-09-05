@@ -9,7 +9,7 @@
 - [Sending files from the script to Chat App as attachments](#sending-files-from-the-script-to-chat-app-as-attachments)
 - [Input requests redirection to Chat App](#input-requests-redirection-to-chat-app)
 - [Inputing files from Chat App to script](#inputing-files-from-chat-app-to-script)
-- [Automatic "help" generation]
+- [Automatic "help" generation](#automatic-help-generation)
 - [Logging]
 - [User access control]
 - [Alias for mentions in groups or channels]
