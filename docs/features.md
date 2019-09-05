@@ -20,7 +20,7 @@
 ### Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing
 
 Pyhton file in folder *skills* can be run from Chat App. 
-Here is an example file - *skills/hello.py*
+Example - *skills/hello.py*
 
 ```python
 print("Hello from Outerspace! :wave:")
@@ -55,7 +55,7 @@ and example file - *skills/hello.py*
 print("Hello from Outerspace! :wave:")
 ```
 
-James from NASA can run Python scripts from both Chat Apps 
+James can run Python script `hello.py` from both Chat Apps 
 
 **Slack**
 
