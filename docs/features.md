@@ -74,7 +74,7 @@ Everything you passed after script name in Chat App can be accessed as usual for
 Example - calculator in chat.
 With usage "calc 100*64 - (3000\*0.75 + 100)\*12".
 
-Code
+Script *skills/calc.py*
 
 ```python
 import sys
@@ -100,6 +100,12 @@ Usage
 #
 
 ### Text outputs redirection to Chat App
+
+As we showed in previous examples all *outputs* are redirected to Chat Apps.
+
+#
+
+
 ### Images/graphs redirection to Chat App
 ### Sending files from the script to Chat App as attachments
 ### Input requests redirection to Chat App
