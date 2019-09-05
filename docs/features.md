@@ -13,7 +13,7 @@
 - [Logging](#logging)
 - [User access control](#user-access-control)
 - [Alias for mentions in groups or channels](#alias-for-mentions-in-groups-or-channels)
-- [Web interface for scripts management and development]
+- [Web interface for scripts management and development](#web-interface-for-scripts-management-and-development)
 
 #### Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing
 
