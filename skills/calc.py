@@ -1,4 +1,4 @@
-'''Calculator. An example - "calc 100*64 - (3000*0.75 + 100)*12"'''
+'''calculation skill, an example - "calc 100*64 - (3000*0.75 + 100)*12"'''
 import sys
 import re
 expression = ' '.join(sys.argv[1:])
