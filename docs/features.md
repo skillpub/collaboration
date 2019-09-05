@@ -79,16 +79,22 @@ Script *skills/calc.py*
 ```python
 import sys
 import re
+
 expression = ' '.join(sys.argv[1:])
+
 not_allowed_symbols = re.findall('[^0-9)(*\-+./ ]',expression)
+
 if len(not_allowed_symbols) != 0:
     print("only symbols 0-9 . - + / * () are allowed")
     sys.exit()
+
 try:    
     res = eval(expression)
     print(res)
+    
 except ZeroDivisionError:
     print("oops.. divided by zero")
+
 except Exception as e:
     print("your expression seems incorrect")
 ````
@@ -107,7 +113,24 @@ As we showed in previous examples all *outputs* are redirected to Chat App.
 
 ### Images/graphs redirection to Chat App
 
+You use the habitual Python modules for showing images,  
 
+Example 1 - `Image.show()`
+
+```python
+from urllib.request import urlopen
+from PIL import Image
+
+commands = sys.argv
+
+if "look" in commands:
+    wiki_page = urlopen("https://en.wikipedia.org/wiki/International_Space_Station").read().decode()
+    first_image = urlopen('https:'+re.findall('src="(//upload.wikimedia.org/wikipedia.+?\.jpg)"',wiki_page)[0])
+    image = Image.open(first_image)
+    image.show()
+```
+
+<img src="images/iss_look.png" width="30%" hight="30%"> 
 
 #
 
