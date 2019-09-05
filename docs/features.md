@@ -6,7 +6,7 @@
 - [Command line arguments from Chat App to script](#command-line-arguments-from-chat-app-to-script)
 - [Text outputs redirection to Chat App](#text-outputs-redirection-to-chat-app)
 - [Images/graphs redirection to Chat App](#imagesgraphs-redirection-to-chat-app)
-- [Sending files from the script to Chat App as attachments]
+- [Sending files from the script to Chat App as attachments](#sending-files-from-the-script-to-chat-app-as-attachments)
 - [Input requests redirection to Chat App]
 - [Inputing files from Chat App to script]
 - [Automatic "help" generation]
