@@ -1,3 +1,3 @@
-'''The "Hello!" Skill'''
+'''the "Hello!" skill'''
 
 print("Hello from Outerspace! :wave:")
