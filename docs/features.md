@@ -22,7 +22,7 @@
 
 print("Hello from Outerspace! :wave:")
 ```
-<img src="images/hello.png" width="100%" hight="100%">
+<img src="images/hello.png" width="30%" hight="30%">
 
 ![hello.png](images/hello.png)
 
