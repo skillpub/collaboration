@@ -18,13 +18,12 @@
 #### Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing
 
 ```python
-'''The "Hello!" Skill'''
-
 print("Hello from Outerspace! :wave:")
 ```
+
 <img src="images/hello.png" width="30%" hight="30%">
 
-![hello.png](images/hello.png)
+
 
 #### Supported Chat Apps : Slack, Telegram
 
