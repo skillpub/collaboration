@@ -10,8 +10,8 @@
 - [Input requests redirection to Chat App](#input-requests-redirection-to-chat-app)
 - [Inputing files from Chat App to script](#inputing-files-from-chat-app-to-script)
 - [Automatic "help" generation](#automatic-help-generation)
-- [Logging]
-- [User access control]
+- [Logging](#logging)
+- [User access control](#user-access-control)
 - [Alias for mentions in groups or channels]
 - [Web interface for scripts management and development]
 
