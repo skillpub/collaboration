@@ -7,7 +7,7 @@
 - [Text outputs redirection to Chat App](#text-outputs-redirection-to-chat-app)
 - [Images/graphs redirection to Chat App](#imagesgraphs-redirection-to-chat-app)
 - [Sending files from the script to Chat App as attachments](#sending-files-from-the-script-to-chat-app-as-attachments)
-- [Input requests redirection to Chat App]
+- [Input requests redirection to Chat App](#input-requests-redirection-to-chat-app)
 - [Inputing files from Chat App to script]
 - [Automatic "help" generation]
 - [Logging]
