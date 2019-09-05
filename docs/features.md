@@ -23,6 +23,8 @@
 print("Hello from Outerspace! :wave:")
 ```
 
+![hello.png](images/hello.png)
+
 #### Supported Chat Apps : Slack, Telegram
 
 #### Command line arguments from Chat App to script
