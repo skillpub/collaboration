@@ -95,7 +95,7 @@ except Exception as e:
 
 Usage
 
-<img src="images/calc.png" width="30%" hight="30%"> 
+<img src="images/calc.png" width="40%" hight="40%"> 
 
 #
 
