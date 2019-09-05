@@ -17,7 +17,8 @@
 
 #### Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing
 
-First Header | ![hello.png](images/hello.png)
+
+```python '''The "Hello!" Skill''' print("Hello from Outerspace! :wave:") ```| ![hello.png](images/hello.png)
 ------------ | ------------------------------
 
 ```python
