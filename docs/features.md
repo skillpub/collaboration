@@ -45,7 +45,7 @@ With simple configuration bellow
 }
 ```
 
-an example file - *skills/hello.py*
+and example file - *skills/hello.py*
 
 ```python
 print("Hello from Outerspace! :wave:")
@@ -53,11 +53,11 @@ print("Hello from Outerspace! :wave:")
 
 James from NASA can run Python scripts from both Chat Apps 
 
-Slack
+**Slack**
 
 <img src="images/hello.png" width="30%" hight="30%"> 
 
-Telegram
+**Telegram**
 
 <img src="images/hello_t.png" width="30%" hight="30%">
 
