@@ -71,7 +71,11 @@ James from NASA can run Python scripts from both Chat Apps
 
 Everything you passed after script name in Chat App can be accessed as usual for Python via sys.argv.
 
-Example - *skills/calc.py*:
+Example - calculator in chat, (skills/calc.py)[../skills/calc.py].
+With usage like "calc 100*64 - (3000\*0.75 + 100)\*12".
+
+Code
+
 ```python
 import sys
 import re
@@ -88,6 +92,10 @@ except ZeroDivisionError:
 except Exception as e:
     print("your expression seems incorrect")
 ````
+
+Usage
+
+
 
 #
 
