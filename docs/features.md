@@ -113,9 +113,9 @@ As we showed in previous examples all *outputs* are redirected to Chat App.
 
 ### Images/graphs redirection to Chat App
 
-You use the habitual Python modules for showing images,  
+You just use the habitual Python modules for showing images.
 
-Example 1 - `Image.show()`
+Example 1 - `Image`, *skills/iss.py*
 
 ```python
 from urllib.request import urlopen
@@ -131,6 +131,21 @@ if "look" in commands:
 ```
 
 <img src="images/iss_look.png" width="40%" hight="40%"> 
+
+Example 2 - `matplotlib`, *skills/sin.py*
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0.1, 2 * np.pi)
+y = np.sin(x)
+
+plt.stem(x, y)
+plt.show()
+```
+
+<img src="images/matplotlib.png" width="40%" hight="40%"> 
 
 #
 
