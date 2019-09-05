@@ -17,10 +17,11 @@
 
 #### Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing
 
+'skills/hello.py'
 ```python
 print("Hello from Outerspace! :wave:")
 ```
-
+You can just run it like this 
 <img src="images/hello.png" width="30%" hight="30%">
 
 
