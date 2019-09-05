@@ -42,7 +42,15 @@ And how it looks in Slack
     }
 }
 ```
+an example file - *skills/hello.py*
 
+```python
+print("Hello from Outerspace! :wave:")
+```
+
+<img src="images/hello.png" width="30%" hight="30%">
+
+<img src="images/hello_t.png" width="30%" hight="30%">
 
 
 #### Command line arguments from Chat App to script
