@@ -71,7 +71,7 @@ James from NASA can run Python scripts from both Chat Apps
 
 Everything you passed after script name in Chat App can be accessed as usual for Python via sys.argv.
 
-Example - calculator in chat, [skills/calc.py](../skills/calc.py).
+Example - calculator in chat.
 With usage "calc 100*64 - (3000\*0.75 + 100)\*12".
 
 Code
@@ -95,7 +95,7 @@ except Exception as e:
 
 Usage
 
-
+<img src="images/calc.png" width="30%" hight="30%"> 
 
 #
 
