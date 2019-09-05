@@ -30,6 +30,8 @@ And how it looks in Slack
 
 ### Supported Chat Apps : Slack, Telegram
 
+With simple configuration bellow
+
 ```json
 { 
     "users": {
@@ -42,14 +44,18 @@ And how it looks in Slack
     }
 }
 ```
+
 an example file - *skills/hello.py*
 
 ```python
 print("Hello from Outerspace! :wave:")
 ```
+James from NASA can run Python scripts from both Chat Apps 
 
+Slack
 <img src="images/hello.png" width="30%" hight="30%">
 
+Telegram
 <img src="images/hello_t.png" width="30%" hight="30%">
 
 
