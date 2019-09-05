@@ -17,12 +17,14 @@
 
 #### Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing
 
-'skills/hello.py'
+Pyhton file in folder *skills* can be run from Chat App. 
+Here is an example file - *skills/hello.py*
 
 ```python
 print("Hello from Outerspace! :wave:")
 ```
-You can just run it like this 
+ 
+And how it looks in Slack
 
 <img src="images/hello.png" width="30%" hight="30%">
 
