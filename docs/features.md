@@ -17,6 +17,12 @@
 
 #### Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing
 
+```python
+'''The "Hello!" Skill'''
+
+print("Hello from Outerspace! :wave:")
+```
+
 #### Supported Chat Apps : Slack, Telegram
 
 #### Command line arguments from Chat App to script
