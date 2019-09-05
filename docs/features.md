@@ -49,13 +49,7 @@ With simple configuration bellow
 }
 ```
 
-and example file - *skills/hello.py*
-
-```python
-print("Hello from Outerspace! :wave:")
-```
-
-James can run Python script `hello.py` from both Chat Apps 
+User James can run Python scripts from both Chat Apps 
 
 **Slack**
 
