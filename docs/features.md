@@ -130,7 +130,7 @@ if "look" in commands:
     image.show()
 ```
 
-<img src="images/iss_look.png" width="30%" hight="30%"> 
+<img src="images/iss_look.png" width="40%" hight="40%"> 
 
 #
 
