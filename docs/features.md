@@ -30,6 +30,8 @@ And how it looks in Slack
 
 <img src="images/hello.png" width="30%" hight="30%">
 
+#
+
 ### Supported Chat Apps : Slack, Telegram
 
 With simple configuration bellow
@@ -63,17 +65,21 @@ James from NASA can run Python scripts from both Chat Apps
 
 <img src="images/hello_t.png" width="30%" hight="30%">
 
-#### Command line arguments from Chat App to script
+#
 
-#### Text outputs redirection to Chat App
-#### Images/graphs redirection to Chat App
-#### Sending files from the script to Chat App as attachments
-#### Input requests redirection to Chat App
-#### Inputing files from Chat App to script
-#### Automatic "help" generation
-#### Logging
-#### User access control
-#### Alias for mentions in groups or channels
-#### Web interface for scripts management and development
+### Command line arguments from Chat App to script
+
+#
+
+### Text outputs redirection to Chat App
+### Images/graphs redirection to Chat App
+### Sending files from the script to Chat App as attachments
+### Input requests redirection to Chat App
+### Inputing files from Chat App to script
+### Automatic "help" generation
+### Logging
+### User access control
+### Alias for mentions in groups or channels
+### Web interface for scripts management and development
 
 
