@@ -166,7 +166,7 @@ In Slack it looks like
 ### Input requests redirection to Chat App
 
 All input requests in your script will be satisfied from Chat App.
-In the example bellow we request time interval to average ISS speed.
+In the example bellow we request time interval to average International Space Station speed.
 
 Example - *skills/iss.py*
 
