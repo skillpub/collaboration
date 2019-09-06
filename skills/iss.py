@@ -9,6 +9,12 @@ from PIL import Image
 
 commands = sys.argv
 
+if "look" in commands:
+    wiki_page = urlopen("https://en.wikipedia.org/wiki/International_Space_Station").read().decode()
+    first_image = urlopen('https:'+re.findall('src="(//upload.wikimedia.org/wikipedia.+?\.jpg)"',wiki_page)[0])
+    image = Image.open(first_image)
+    image.show()
+
 if "location" in commands:
 
     data = json.loads(urlopen("http://api.open-notify.org/iss-now.json").read())['iss_position']
