@@ -145,8 +145,7 @@ plt.show()
 
 ### Sending files from the script to Chat App as attachments
 
-We added to the print function the ability to output a files as attachemt.
-Here is the example
+We added to the print function the ability to output files as an attachment. Here is the example
 
 ```python
 from urllib.request import urlopen
