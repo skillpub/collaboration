@@ -57,7 +57,7 @@ User James can run Python scripts from both Chat Apps
 
 **Telegram**
 
-<img src="images/hello_t.png" width="30%" hight="30%">
+<img src="images/hello_t.png" width="40%" hight="40%">
 
 #
 
