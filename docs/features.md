@@ -172,7 +172,7 @@ Example - *skills/iss.py*
 
 ```python
 from urllib.request import urlopen
-from PIL import Image
+import json
 
 commands = sys.argv
 
@@ -216,7 +216,9 @@ if "speed" in commands:
     print('*ISS speed* : '+str(round(speed,2)) + ' km/s')
 ```
 
+In Slack it looks like
 
+<img src="images/iss_speed_average.png" width="50%" hight="50%"> 
 
 #
 
