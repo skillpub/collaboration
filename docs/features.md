@@ -145,6 +145,23 @@ plt.show()
 
 ### Sending files from the script to Chat App as attachments
 
+We added to the print function the ability to output a files as attachemt.
+Here is the example
+
+```python
+from urllib.request import urlopen
+
+data = urlopen("https://data.nasa.gov/api/views/gquh-watm/rows.csv?accessType=DOWNLOAD").read().decode()
+
+print({"nasa_patents.csv":data})
+```
+
+The syntax is `print({"filename.ext": "file content, string or bytes"})
+
+In Slack it looks like
+
+<img src="images/patents.png" width="100%" hight="100%"> 
+
 #
 
 ### Input requests redirection to Chat App
