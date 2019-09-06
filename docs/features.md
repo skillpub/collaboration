@@ -156,7 +156,7 @@ data = urlopen("https://data.nasa.gov/api/views/gquh-watm/rows.csv?accessType=DO
 print({"nasa_patents.csv":data})
 ```
 
-The syntax is `print({"filename.ext": "file content, string or bytes"})
+The syntax is `print({"filename.ext": "file content, string or bytes"})`
 
 In Slack it looks like
 
