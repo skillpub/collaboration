@@ -218,7 +218,7 @@ if "speed" in commands:
 
 In Slack it looks like
 
-<img src="images/iss_speed_average.png" width="50%" hight="50%"> 
+<img src="images/iss_speed_average.png" width="40%" hight="40%"> 
 
 #
 
