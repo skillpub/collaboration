@@ -264,13 +264,21 @@ if "look" in commands:
 
 In Slack description looks like
 
-<img src="images/help.png" width="40%" hight="40%"> 
-
 <img src="images/skills_help.png" width="40%" hight="40%"> 
+
+<img src="images/help.png" width="40%" hight="40%"> 
 
 #
 
 ### Logging
+
+The logs are saved in folder *logs*. By default logs rotation is used with maximum 20 files 1 MB each.  
+
+Here is the log records example
+```
+2019-09-09 12:04:03,990 - channel=slack,id=james,user=james,msg=iss look,action=run skill,skill=iss
+2019-09-09 12:09:06,551 - channel=slack,id=chernikovanv,user=james,msg=sin,action=run skill,skill=sin
+```
 
 #
 
