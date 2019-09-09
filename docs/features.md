@@ -231,6 +231,33 @@ In Slack it looks like
 
 ### Inputing files from Chat App to script
 
+We've empowered the `input` function with the ability to input files from an message attachment.
+`input` returs file in structure `{"filename" : "binary content"}`
+ 
+ Here is the example - *skills/admin/add.py*
+ 
+```python
+'''add a script to skills'''
+
+data = input('drop me the script')
+
+if type(data) is dict:
+    file_name = list(data.keys())[0]
+    data = data[file_name]
+    
+    f = open('../'+file_name, "wb")
+    f.write(data)
+    f.close()
+    
+    print('done')
+else:
+    print('i was waiting for a text file')
+```
+
+In Slack it looks like
+
+<img src="images/add_skill.png" width="100%" hight="100%"> 
+
 #
 
 ### Automatic "help" generation
