@@ -341,7 +341,7 @@ For your convenience, we added a web-based user interface to manage, develop ...
 
  Command to get link to web interface is `pub`
  
- <img src="images/pub.png" width="40%" hight="40%">
+ <img src="images/pub.png" width="100%" hight="100%">
 
 
 
