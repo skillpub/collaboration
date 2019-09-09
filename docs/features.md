@@ -343,7 +343,7 @@ Command to get link to web interface is `pub`
  
  <img src="images/pub.png" width="100%" hight="100%">
 
-In this example "MacBook-Pro-james.nasa.local" is what we can get as a default hostname of your mashine. If you need to change it add to the config "jupyter":{"host":"your host name or IP"}
+In this example "MacBook-Pro-james.nasa.local" is what we can get as a default hostname of your mashine. If you need to change it add to the config "jupyter":{"host":"your host name or IP"}.
 
 Example
 
@@ -360,5 +360,10 @@ Example
     "jupyter": {"host": "helper.nasa.com"}
 }
 ```
+
+Jupyter is nice tool, you'll see it.
+
+<img src="images/jupyter.png" width="100%" hight="100%">
+
 
 
