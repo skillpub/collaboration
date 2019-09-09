@@ -256,7 +256,7 @@ else:
 
 In Slack it looks like
 
-<img src="images/add_skill.png" width="100%" hight="100%"> 
+<img src="images/add_skill.png" width="40%" hight="40%"> 
 
 #
 
