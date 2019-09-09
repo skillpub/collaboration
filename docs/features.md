@@ -300,7 +300,7 @@ Config file, pay attenton to James `groups`:
     },
     
     "channels": {
-        "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456}
+        "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"}
     }
 }
 ```
@@ -324,7 +324,7 @@ or you can add alias in channel config (any simbol, ">" in our example)
     },
     
     "channels": {
-        "slack": {"alias":">", "token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456}
+        "slack": {"alias":">", "token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"}
     }
 }
 ```
