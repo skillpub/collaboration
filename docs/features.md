@@ -67,8 +67,7 @@ User James can run Python scripts from both Chat Apps
 
 Everything you passed after script name in Chat App can be accessed as usual for Python via sys.argv.
 
-Example - calculator in chat.
-With usage "calc 100*64 - (3000\*0.75 + 100)\*12".
+Example - calculator in chat, with usage "calc 100*64 - (3000\*0.75 + 100)\*12".
 
 Script *skills/calc.py*
 
