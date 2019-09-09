@@ -109,7 +109,7 @@ As we showed in previous examples all *outputs* are redirected to Chat App.
 
 ### Images/graphs redirection to Chat App
 
-You just use the habitual Python modules for showing images.
+You just use the habitual Python modules for showing images, we do magic to interface these modules with Chat App.
 
 Example 1 - `Image`, *skills/iss.py*
 
