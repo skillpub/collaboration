@@ -277,7 +277,7 @@ The logs are saved in folder *logs*. By default logs rotation is used with maxim
 Here is the log records example
 ```
 2019-09-09 12:04:03,990 - channel=slack,id=james,user=james,msg=iss look,action=run skill,skill=iss
-2019-09-09 12:09:06,551 - channel=slack,id=chernikovanv,user=james,msg=sin,action=run skill,skill=sin
+2019-09-09 12:09:06,551 - channel=slack,id=james,user=james,msg=sin,action=run skill,skill=sin
 ```
 
 #
