@@ -343,7 +343,7 @@ Command to get link to web interface is `pub`
  
  <img src="images/pub.png" width="100%" hight="100%">
 
-In this example "MacBook-Pro-james.nasa.local" is what we can get as a default hostname of your mashine. If you need to change it add to the config "jupyter":{"host":"your host name or IP"}.
+In this example "server-01p.nasa.com" is what we can get as a default hostname of the machine you run Skillpub on. If you need to change it add to the config "jupyter":{"host":"your hostname or IP"}.
 
 Example
 
