@@ -71,6 +71,7 @@ With usage "calc 100*64 - (3000\*0.75 + 100)\*12".
 Script *skills/calc.py*
 
 ```python
+'''calculation skill, an example - "calc 100*64 - (3000*0.75 + 100)*12"'''
 import sys
 import re
 
@@ -112,6 +113,7 @@ You just use the habitual Python modules for showing images.
 Example 1 - `Image`, *skills/iss.py*
 
 ```python
+'''some data about International Space Station'''
 from urllib.request import urlopen
 from PIL import Image
 
@@ -129,6 +131,7 @@ if "look" in commands:
 Example 2 - `matplotlib`, *skills/sin.py*
 
 ```python
+'''sine graph'''
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -148,6 +151,7 @@ plt.show()
 We've empowered the `print` function with the ability to output files as an attachment. Here is the example - *skills/patents.py*
 
 ```python
+'''NASA patents list'''
 from urllib.request import urlopen
 
 data = urlopen("https://data.nasa.gov/api/views/gquh-watm/rows.csv?accessType=DOWNLOAD").read().decode()
@@ -171,6 +175,7 @@ In the example bellow we request time interval to average International Space St
 Example - *skills/iss.py*
 
 ```python
+'''some data about International Space Station'''
 from urllib.request import urlopen
 import json
 
@@ -227,6 +232,8 @@ In Slack it looks like
 #
 
 ### Automatic "help" generation
+
+
 
 #
 
