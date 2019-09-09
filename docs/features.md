@@ -230,7 +230,7 @@ In Slack it looks like
 
 ### Inputing files from Chat App to script
 
-We've empowered the `input` function with the ability to input files from an message attachment.
+We've empowered the `input` function with the ability to input files from a message attachment.
 `input` returs file in structure `{"filename" : "binary content"}`
  
  Here is the example - *skills/admin/add.py*
