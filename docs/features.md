@@ -339,10 +339,26 @@ and use this alias
 
 For your convenience, we added a web-based user interface to manage, develop ... play with scripts. If you ever heard about Jupyter that should be good news - our web interface is JupyterLab. If you haven't hear that is a good chance to try it.
 
- Command to get link to web interface is `pub`
+Command to get link to web interface is `pub`
  
  <img src="images/pub.png" width="100%" hight="100%">
 
+In this example "MacBook-Pro-james.nasa.local" is what we can get as a default hostname of your mashine. If you need to change it add to the config "jupyter":{"host":"your host name or IP"}
 
+Example
+
+```json
+{
+    "users": {
+        "james": {"channels": {"slack" : "james"}},
+    },
+    
+    "channels": {
+        "slack": {"alias":">", "token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"}
+    },
+    
+    "jupyter": {"host": "helper.nasa.com"}
+}
+```
 
 
