@@ -391,6 +391,3 @@ Example
 Jupyter is nice tool, you'll see this.
 
 <img src="images/jupyter.png" width="100%" hight="100%">
-
-
-
