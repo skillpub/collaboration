@@ -110,7 +110,7 @@ Text to your bot ```hello```, you'll see the answer.
 Now go to the folder *skills* (as you remember it was created when we first time run Skillpub).
 You will see *hello.py* script, open it, you'll see the code, play whith it, use the Power :muscle: of Python. Skillpub will apply changes automatically when you save file. For training purposes we have prepared a script that could be used in NASA - [this one](skills/iss.py). Copy it to yor *skills* folder. Text to your bot `iss location` or `iss speed` or `iss people`, you'll see the International Space Station current location, speed, and astronauts photos. As you can see in script - it's pure Python, nothing about connections with any Chat App. 
 
-That is all for Quickstart, all other things in our Tutorial. Just a few poins to add here:
+That is all for Quickstart, more detailed topics are [here](https://github.com/skillpub/collaboration/blob/master/docs/START%20HERE.md#skillpub). Just a few poins to add here:
  - Pyhton file in folder *skills* can be run from Chat App (Slack in our example)
  - file name - is command to run
  - first line in file in triple quotes is skill description, text to your bot ```skills``` or ```help``` to see it
@@ -118,7 +118,7 @@ That is all for Quickstart, all other things in our Tutorial. Just a few poins t
  - to manage access to scripts put them to subfolders in folder skills, and add subfolder name to user groups like this ```"james": {"groups":["subfolder 1","subfolder 2"], "channels": {"slack" : "james"}}```
  - to pass arguments to your script text them after command, like this ```hello blabla bla```, in script you can access them as usual for Python - ```sys.argv```
 
-For more details and examples go to our Tutorial. Thanks for attention, see you :wave:
+For more details and examples read our (docs)[https://github.com/skillpub/collaboration/blob/master/docs/START%20HERE.md#skillpub]. Thanks for attention, see you :wave:
 
 P.S. here is the example of config file with subfolders, host name, etc. - [config.json](config.json)
 
