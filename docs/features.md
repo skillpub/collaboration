@@ -336,3 +336,13 @@ and use this alias
 #
 
 ### Web interface for scripts management and development
+
+For your convenience, we added a web-based user interface to manage, develop ... play with scripts. If you ever heard about Jupyter that should be good news - our web interface is JupyterLab. If you haven't hear that is a good chance to try it.
+
+ Command to get link to web interface is `pub`
+ 
+ <img src="images/pub.png" width="40%" hight="40%">
+
+
+
+
