@@ -309,7 +309,29 @@ As you can guess James has access to script `logs.py` but John doesn't.
 
 #
 
-### Alias for mentions in groups or channels
+### Alias and mention in groups or channels
+
+In channels or groups, you can send message to your helper by mentioning it in message, for example
+
+<img src="images/mention.png" width="40%" hight="40%">
+
+or you can add alias in channel config (any simbol, ">" in our example)
+
+```json
+{
+    "users": {
+        "james": {"channels": {"slack" : "james"}},
+    },
+    
+    "channels": {
+        "slack": {"alias":">", "token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456}
+    }
+}
+```
+
+and use this alias
+
+<img src="images/alias.png" width="40%" hight="40%">
 
 #
 
