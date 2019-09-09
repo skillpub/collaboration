@@ -354,7 +354,7 @@ Example
     },
     
     "channels": {
-        "slack": {"alias":">", "token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"}
+        "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"}
     },
     
     "jupyter": {"host": "helper.nasa.com"}
