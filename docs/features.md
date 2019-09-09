@@ -313,7 +313,7 @@ As you can guess James has access to script `logs.py` but John doesn't.
 
 In channels or groups, you can send message to your helper by mentioning it in message, for example
 
-<img src="images/mention.png" width="40%" hight="40%">
+<img src="images/mention.png" width="30%" hight="30%">
 
 or you can add alias in channel config (any simbol, ">" in our example)
 
@@ -331,7 +331,7 @@ or you can add alias in channel config (any simbol, ">" in our example)
 
 and use this alias
 
-<img src="images/alias.png" width="40%" hight="40%">
+<img src="images/alias.png" width="30%" hight="30%">
 
 #
 
