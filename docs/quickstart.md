@@ -118,7 +118,7 @@ That is all for Quickstart, more detailed topics are [here](https://github.com/s
  - to manage access to scripts put them to subfolders in folder skills, and add subfolder name to user groups like this ```"james": {"groups":["subfolder 1","subfolder 2"], "channels": {"slack" : "james"}}```
  - to pass arguments to your script text them after command, like this ```hello blabla bla```, in script you can access them as usual for Python - ```sys.argv```
 
-For more details and examples read our (docs)[https://github.com/skillpub/collaboration/blob/master/docs/START%20HERE.md#skillpub]. Thanks for attention, see you :wave:
+For more details and examples read our [docs](https://github.com/skillpub/collaboration/blob/master/docs/START%20HERE.md#skillpub). Thanks for attention, see you :wave:
 
 P.S. here is the example of config file with subfolders, host name, etc. - [config.json](config.json)
 
