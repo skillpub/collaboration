@@ -26,7 +26,7 @@ These things are trivial to automate and share, you can do much more with Python
 
 # Quickstart
 
-The Skillpub is distributed as a **Python package** on the Python Package Index (PyPI) and hosted on your mashine. 
+The Skillpub is distributed as a **Python package** on the Python Package Index (PyPI) and hosted on your machine. 
 The requarements are 
   - Linux OS (CentOS, Ubuntu, Debian, ... ) or macOS
   - Python **3.6** and above with pip
