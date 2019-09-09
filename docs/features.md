@@ -235,7 +235,8 @@ In Slack it looks like
 
 ### Automatic "help" generation
 
-Firs string literal with triple quotes in your scripts is used to generate "help".
+Firs string literal with triple quotes in your scripts is used to generate skills description.
+The command to see it is - `skills` or `help`.
 
 Example
 
@@ -261,9 +262,11 @@ if "look" in commands:
     image.show()
 ```
 
-In Slack "help" looks like
+In Slack description looks like
 
 <img src="images/help.png" width="40%" hight="40%"> 
+
+<img src="images/skills_help.png" width="40%" hight="40%"> 
 
 #
 
