@@ -288,18 +288,18 @@ We use subfolders to manage access to scripts.
 Let's see the example.
 
 Folders structure:
-<img src="images/folders.png" width="40%" hight="40%"> 
+
+<img src="images/folders.png" width="20%" hight="20%"> 
 
 Config file, pay attenton to James `groups`:
 ```json
 {
     "users": {
         "james": {"groups":["admin"], "channels": {"slack" : "james"}},
-        "john": {"channels": {"slack": john}}
+        "john": {"channels": {"slack": "john"}}
     },
     
     "channels": {
-        "telegram": {"token": "123456789:QWER_1234567890qwertyu-iopasdfghjklz"},
         "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456}
     }
 }
