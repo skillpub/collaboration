@@ -23,6 +23,8 @@ Pyhton file in folder *skills* can be run from Chat App.
 Example - *skills/hello.py*
 
 ```python
+'''the "Hello!" skill'''
+
 print("Hello from Outerspace! :wave:")
 ```
  
@@ -233,7 +235,35 @@ In Slack it looks like
 
 ### Automatic "help" generation
 
+Firs string literal with triple quotes in your scripts is used to generate "help".
 
+Example
+
+*skills/hello.py*
+```python
+'''the "Hello!" skill'''
+
+print("Hello from Outerspace! :wave:")
+```
+
+*skills/iss.py*
+```python
+'''some data about International Space Station'''
+from urllib.request import urlopen
+from PIL import Image
+
+commands = sys.argv
+
+if "look" in commands:
+    wiki_page = urlopen("https://en.wikipedia.org/wiki/International_Space_Station").read().decode()
+    first_image = urlopen('https:'+re.findall('src="(//upload.wikimedia.org/wikipedia.+?\.jpg)"',wiki_page)[0])
+    image = Image.open(first_image)
+    image.show()
+```
+
+In Slack "help" looks like
+
+<img src="images/help.png" width="40%" hight="40%"> 
 
 #
 
