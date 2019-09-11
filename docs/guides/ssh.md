@@ -4,7 +4,7 @@ The range of practical tasks that can be done through ssh connection is boundles
 
 Let's do it in the example bellow - *skills/ssh.py*
 
-```pyhton
+```python
 '''connects via ssh to servers'''
 import paramiko
 import time
