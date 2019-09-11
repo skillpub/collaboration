@@ -18,7 +18,7 @@ At the end of this description you can find example with all these parts.
 }
 ```
 
-UNIQ_USER_NAME is string
+USER_NAME is string
 
 Supported channels are "slack" and "telegram".
 
