@@ -23,12 +23,12 @@ UNIQ_USER_NAME is string
 Supported channels are "slack" and "telegram".
 
 ```
-"channels": {"slack" : "USER_NAME_IN_SLACK", "telegram": ISER_ID_IN_TELEGRAM}
+"channels": {"slack" : "SLACK_USER_NAME", "telegram": TELEGRAM_USER_ID}
 ```
 
-USER_NAME_IN_SLACK is string
+SLACK_USER_NAME is string
 
-ISER_ID_IN_TELEGRAM is integer
+TELEGRAM_USER_ID is integer
 
 Groups mean access to scripts placed in subfolders of *skills* folder.
 
@@ -54,6 +54,31 @@ To grant access to script logs.py use
 # 
 
 ### Channels
+
+Supported channels are "slack" and "telegram".
+
+```
+"channels": {
+    "slack": {"token": "xoxb-XXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXX"},
+    "telegram": {"token": "XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}
+}
+```
+
+**Slack token** is **"Bot User OAuth Access Token"** in terms of Slack documentation. To get it do the steps bellow
+
+- Create **Slack App** - https://api.slack.com/apps/new. 
+- Create a **Bot User** for this App:
+  - Head to your [app's settings page](https://api.slack.com/apps) and click the **Bot Users** feature in the navigation menu.
+  - You'll be presented with a button marked **Add a Bot User**, and when you click on it, you'll see a screen where you can configure your app's bot user.
+  - The important here - **Display name**. We choose *NasaHelper*. You choose your.
+  - Once you've completed these fields, click the **Add Bot User** button and then **Save Changes**.
+- Install the **App to a workspace**:
+  - On your [app's settings page](https://api.slack.com/apps) again, click the **OAuth & Permissions** settings item in the navigation menu.
+  - On this page, click a button marked **Install App to your Workspace**.
+  - You'll see a permissions authorization page, where you should click **Authorize** and then you will see your **"Bot User OAuth Access Token"**.
+
+**Telegram token** is the token to access the HTTPS Telegram API. 
+You can get it from **Telegram bot [BotFather](https://telegram.me/botfather)**. Read more [here](https://core.telegram.org/bots).
 
 #
 
