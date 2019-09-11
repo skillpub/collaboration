@@ -317,12 +317,11 @@ Folders structure:
 
 ```
 |-- skills
+    |-- hello.py
     |-- iss.py
     |-- admin
         |-- logs.py
 ```
-
-<img src="images/folders.png" width="20%" hight="20%"> 
 
 Config file, pay attenton to James `groups`:
 ```json
@@ -364,7 +363,7 @@ or you can add alias in channel config (any simbol, ">" in our example)
 
 and use this alias
 
-<img src="images/alias.png" width="30%" hight="30%">
+<img src="images/alias.png" width="40%" hight="40%">
 
 #
 
