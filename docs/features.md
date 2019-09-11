@@ -371,7 +371,7 @@ and use this alias
 
 For your convenience, we added a web-based user interface to manage, develop ... play with scripts. If you ever heard about Jupyter that should be good news - our web interface is JupyterLab. If you haven't hear that is a good chance to try it.
 
-Command to get link to web interface is `pub`
+Command to get link to web interface is `pub`. User must be in publishers list in the config, look the config example bellow, and more details [here](https://github.com/skillpub/collaboration/blob/master/docs/config.md#publishers).
  
  <img src="images/pub.png" width="100%" hight="100%">
 
@@ -388,6 +388,8 @@ Example
     "channels": {
         "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"}
     },
+    
+    "publishers": ["james"],
     
     "jupyter": {"host": "helper.nasa.com"}
 }
