@@ -10,24 +10,28 @@ class SSH:
         self.host = ""
         self.username = ""
         self.password = ""
-        #self.SSHKEY = "../.ssh/my_key"
         self.shell = None
         self.client = None
+        self.key_filename = ""
     
     def callback(*arg, **kw):
         return
     
-    def connect(self, host, port=22, username=None, password=None, callback=None, timeout=5):
+    def connect(self, host, port=22, username=None, password=None, callback=None, timeout=5, key_filename=None):
         self.host = host
         self.port = port
         self.username = username
         self.password = password
         if callable(callback): self.callback = callback
         self.timeout = timeout
+        self.key_filename = key_filename
         try:
             self.client = paramiko.SSHClient()
             self.client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-            self.client.connect(hostname=self.host, port=self.port, username=self.username, password=self.password, timeout=self.timeout)
+            if key_filename is not None:
+                self.client.connect(hostname=self.host, port=self.port, username=self.username, key_filename = self.key_filename, timeout=self.timeout)
+            else:
+                self.client.connect(hostname=self.host, port=self.port, username=self.username, password=self.password, timeout=self.timeout)
             self.shell = self.client.invoke_shell()
             if self.callback is not None:
                 self.ssh_recv = self.ShellRecv(self.shell, self.callback)
