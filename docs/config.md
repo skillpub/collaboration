@@ -27,6 +27,7 @@ Supported channels are "slack" and "telegram".
 ```
 
 USER_NAME_IN_SLACK is string
+
 ISER_ID_IN_TELEGRAM is integer
 
 Groups mean access to scripts placed in subfolders of *skills* folder.
