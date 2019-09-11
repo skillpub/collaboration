@@ -2,9 +2,10 @@
 
 The range of practical tasks that can be done through ssh connection is boundless. You can combine this infinity with the Chat Apps convenience. 
 
-In our example *skills/ssh.py* we will do two things:
- - connect via ssh to the server, run command on that server and send output to Chat App
+In our example [*skills/ssh.py*] we will do two things:
+ - connect to the server by the request from Chat App, run command on that server and send output back to Chat App
  - server command line interface in Chat App 
+
 
 
 
