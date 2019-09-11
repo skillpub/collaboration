@@ -11,7 +11,7 @@ servers = ["us01"]
 USERNAME = "nasahelper"
 SSHKEY = "../.ssh/nasahelper-ssh-key"
 
-NAME2IP_LIST = {"us01" : "35.226.129.160"}
+NAME2IP_LIST = {"us01" : "XXX.XXX.XXX.XXX"}
                 
 argv = ' '.join(sys.argv)
 
