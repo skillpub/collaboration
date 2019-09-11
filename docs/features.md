@@ -55,11 +55,11 @@ User James can run Python scripts from both Chat Apps
 
 **Slack**
 
-<img src="images/hello.png" width="30%" hight="30%"> 
+<img src="images/hello.png" width="50%" hight="50%"> 
 
 **Telegram**
 
-<img src="images/hello_t.png" width="40%" hight="40%">
+<img src="images/hello_t.png" width="50%" hight="50%">
 
 #
 
