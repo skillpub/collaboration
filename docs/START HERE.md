@@ -11,7 +11,7 @@ To get familiar with the product you can start by reading these topics
 if you are imbued with the product and decide to use it, you agree with our [End User License Agreement](license.md#end-user-license-agreement-for-skillpub-software).
 
 These are more detailed topics
- - [Fetaures](features.md#features)
+ - [Features](features.md#features)
  - [Config](config.md#config)
 
 And these are how-to guides
