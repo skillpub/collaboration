@@ -25,5 +25,5 @@ Folder structure should be like this:
 
 If everything went right you got smth like this
 
-<img src="../images/ssh.png" width="50%" hight="50%">
+<img src="../images/ssh.png" width="70%" hight="70%">
 
