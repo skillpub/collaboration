@@ -2,7 +2,11 @@
 
 The range of practical tasks that can be done through ssh connection is boundless. You can combine this infinity with the Chat Apps convenience. 
 
-Let's do it in the example bellow - *skills/ssh.py*
+In our example *skills/ssh.py* we will do two things:
+ - connect via ssh to the server, run command on that server and send output to Chat App
+ - server command line interface in Chat App 
+
+
 
 ```python
 '''connects via ssh to servers'''
@@ -18,7 +22,7 @@ servers = ["us01"]
 USERNAME = "nasahelper"
 SSHKEY = "../.ssh/nasahelper-ssh-key"
 
-NAME2IP_LIST = {"us01" : "35.226.129.160"}
+NAME2IP_LIST = {"us01" : "XXX.XXX.XXX.XXX"}
                 
 argv = ' '.join(sys.argv)
 
