@@ -70,7 +70,7 @@ Supported channels are "slack" and "telegram".
 - Create a **Bot User** for this App:
   - Head to your [app's settings page](https://api.slack.com/apps) and click the **Bot Users** feature in the navigation menu.
   - You'll be presented with a button marked **Add a Bot User**, and when you click on it, you'll see a screen where you can configure your app's bot user.
-  - The important here - **Display name**. We choose *NasaHelper*. You choose your.
+  - The important here - **Display name**.
   - Once you've completed these fields, click the **Add Bot User** button and then **Save Changes**.
 - Install the **App to a workspace**:
   - On your [app's settings page](https://api.slack.com/apps) again, click the **OAuth & Permissions** settings item in the navigation menu.
