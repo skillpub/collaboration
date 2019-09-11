@@ -30,7 +30,7 @@ print("Hello from Outerspace! :wave:")
  
 And how it looks in Slack
 
-<img src="images/hello.png" width="30%" hight="30%">
+<img src="images/hello.png" width="40%" hight="40%">
 
 #
 
@@ -55,7 +55,7 @@ User James can run Python scripts from both Chat Apps
 
 **Slack**
 
-<img src="images/hello.png" width="50%" hight="50%"> 
+<img src="images/hello.png" width="40%" hight="40%"> 
 
 **Telegram**
 
