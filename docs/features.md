@@ -127,7 +127,7 @@ if "look" in commands:
     image.show()
 ```
 
-<img src="images/iss_look.png" width="60%" hight="60%"> 
+<img src="images/iss_look.png" width="50%" hight="50%"> 
 
 Example 2 - `matplotlib`, *skills/sin.py*
 
