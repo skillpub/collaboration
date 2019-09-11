@@ -14,7 +14,7 @@ At the end of this description you can find example with all these parts.
 
 ```json
 "users" : {
-    "UNIQ_USER_NAME": { "channels" : {}, "groups" : [] }
+    "USER_NAME": { "channels" : {}, "groups" : [] }
 }
 ```
 
@@ -22,7 +22,7 @@ UNIQ_USER_NAME is string
 
 Supported channels are "slack" and "telegram".
 
-```json
+```
 "channels": {"slack" : "SLACK_USER_NAME", "telegram": TELEGRAM_USER_ID}
 ```
 
@@ -94,9 +94,21 @@ Publishers are users who have access to Skillpub web-based user interface.
 
 ### Jupyter
 
+With "jupyter" option, you can change the default hostname of Skillpub web-based user interface.
+
+```json
+"jupyter": {"host": "HOST_NAME_OR_IP"},
+```
+
 #
 
 ### License
+
+```json
+"license": "free"
+```
+
+Here you'll place the token when using the paid version.
 
 #
 
@@ -112,12 +124,12 @@ Publishers are users who have access to Skillpub web-based user interface.
         "patricia": {"channels": {"slack" : "patricia"}}
     },
 
-    "publishers": ["james","john","mary"],
-
     "channels": {
         "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"},
         "telegram": {"token": "123456789:QWERTYUIOPasdfghjklZXCVBNMqwertyuio"}
     },
+    
+    "publishers": ["james","john","mary"],
     
     "jupyter": {"host": "helper.nasa.com"},
 
