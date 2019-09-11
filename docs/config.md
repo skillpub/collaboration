@@ -12,7 +12,7 @@ At the end of this description you can find example with all these parts.
 
 ### Users
 
-```
+```json
 "users" : {
     "UNIQ_USER_NAME": { "channels" : {}, "groups" : [] }
 }
@@ -22,7 +22,7 @@ UNIQ_USER_NAME is string
 
 Supported channels are "slack" and "telegram".
 
-```
+```json
 "channels": {"slack" : "SLACK_USER_NAME", "telegram": TELEGRAM_USER_ID}
 ```
 
@@ -32,8 +32,8 @@ TELEGRAM_USER_ID is integer
 
 Groups mean access to scripts placed in subfolders of *skills* folder.
 
-```
-"groups": ["SUBFOLDER_1", "SUBFOLDER_2"]
+```json
+"groups": ["SUBFOLDER_1", "SUBFOLDER_N"]
 ```
 
 For example
@@ -47,7 +47,7 @@ For example
 
 To grant access to script logs.py use
 
-```
+```json
 "groups": ["admin"]
 ```
 
@@ -57,7 +57,7 @@ To grant access to script logs.py use
 
 Supported channels are "slack" and "telegram".
 
-```
+```json
 "channels": {
     "slack": {"token": "xoxb-XXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXX"},
     "telegram": {"token": "XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}
@@ -84,6 +84,12 @@ You can get it from **Telegram bot [BotFather](https://telegram.me/botfather)**.
 
 ### Publishers
 
+Publishers are users who have access to Skillpub web-based user interface.
+
+```json
+"publishers": ["USER_NAME_1","USER_NAME_N"],
+```
+
 #
 
 ### Jupyter
@@ -96,7 +102,7 @@ You can get it from **Telegram bot [BotFather](https://telegram.me/botfather)**.
 
 ### Config example
 
-```
+```json
 {
     "users": {
         "james": {"groups":["science","ufo_contacts"], "channels": {"slack" : "james", "telegram" : 1001}},
