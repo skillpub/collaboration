@@ -97,7 +97,7 @@ except Exception as e:
 
 Usage
 
-<img src="images/calc.png" width="40%" hight="40%"> 
+<img src="images/calc.png" width="50%" hight="50%"> 
 
 #
 
@@ -127,7 +127,7 @@ if "look" in commands:
     image.show()
 ```
 
-<img src="images/iss_look.png" width="50%" hight="50%"> 
+<img src="images/iss_look.png" width="60%" hight="60%"> 
 
 Example 2 - `matplotlib`, *skills/sin.py*
 
@@ -143,7 +143,7 @@ plt.stem(x, y)
 plt.show()
 ```
 
-<img src="images/matplotlib.png" width="50%" hight="50%"> 
+<img src="images/matplotlib.png" width="60%" hight="60%"> 
 
 #
 
@@ -224,7 +224,7 @@ if "speed" in commands:
 
 In Slack it looks like
 
-<img src="images/iss_speed_average.png" width="40%" hight="40%"> 
+<img src="images/iss_speed_average.png" width="50%" hight="50%"> 
 
 #
 
@@ -255,7 +255,7 @@ else:
 
 In Slack it looks like
 
-<img src="images/add_skill.png" width="40%" hight="40%"> 
+<img src="images/add_skill.png" width="50%" hight="50%"> 
 
 #
 
@@ -290,9 +290,9 @@ if "look" in commands:
 
 In Slack description looks like
 
-<img src="images/skills_help.png" width="40%" hight="40%"> 
+<img src="images/skills_help.png" width="50%" hight="50%"> 
 
-<img src="images/help.png" width="40%" hight="40%"> 
+<img src="images/help.png" width="50%" hight="50%"> 
 
 #
 
@@ -314,6 +314,13 @@ We use subfolders to manage access to scripts.
 Let's see the example.
 
 Folders structure:
+
+```
+|-- skills
+    |-- iss.py
+    |-- admin
+        |-- logs.py
+```
 
 <img src="images/folders.png" width="20%" hight="20%"> 
 
