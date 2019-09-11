@@ -2,11 +2,11 @@
 
 Skillpub Config is JSON file with semantic parts:
 
- - [users](https://github.com/skillpub/collaboration/edit/master/docs/config.md#users)
- - [channels](https://github.com/skillpub/collaboration/edit/master/docs/config.md#channels)
- - [publishers](https://github.com/skillpub/collaboration/edit/master/docs/config.md#publishers)
- - [jupyter](https://github.com/skillpub/collaboration/edit/master/docs/config.md#jupyter)
- - [license](https://github.com/skillpub/collaboration/edit/master/docs/config.md#license)
+ - [users](https://github.com/skillpub/collaboration/blob/master/docs/config.md#users)
+ - [channels](https://github.com/skillpub/collaboration/blob/master/docs/config.md#channels)
+ - [publishers](https://github.com/skillpub/collaboration/blob/master/docs/config.md#publishers)
+ - [jupyter](https://github.com/skillpub/collaboration/blob/master/docs/config.md#jupyter)
+ - [license](https://github.com/skillpub/collaboration/blob/master/docs/config.md#license)
 
 At the end of this description you can find example with all these parts.
 
