@@ -36,6 +36,13 @@ skillpub
 ```
 
 It will create config file and folder for shared scripts (*skills*).
+
+```
+|-- skills
+    |-- hello.py
+|-- conf.json
+```
+
 Check it out by command `ls` and then `cat config.json`
 
 Config file will looks like 
