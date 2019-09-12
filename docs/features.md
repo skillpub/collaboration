@@ -8,10 +8,10 @@
 - [Images/graphs redirection to Chat App](#imagesgraphs-redirection-to-chat-app)
 - [Sending files from the script to Chat App as attachments](#sending-files-from-the-script-to-chat-app-as-attachments)
 - [Input requests redirection to Chat App](#input-requests-redirection-to-chat-app)
+- [User access control](#user-access-control)
 - [Inputing files from Chat App to script](#inputing-files-from-chat-app-to-script)
 - [Automatic "help" generation](#automatic-help-generation)
 - [Logging](#logging)
-- [User access control](#user-access-control)
 - [Alias for mentions in groups or channels](#alias-for-mentions-in-groups-or-channels)
 - [Web interface for scripts management and development](#web-interface-for-scripts-management-and-development)
 
@@ -228,6 +228,39 @@ In Slack it looks like
 
 #
 
+### User access control
+
+We use subfolders to manage access to scripts.
+Let's see the example.
+
+Folders structure:
+
+```
+|-- skills
+    |-- hello.py
+    |-- iss.py
+    |-- admin
+        |-- logs.py
+```
+
+Config file, pay attenton to James `groups`:
+```json
+{
+    "users": {
+        "james": {"groups":["admin"], "channels": {"slack" : "james"}},
+        "john": {"channels": {"slack": "john"}}
+    },
+    
+    "channels": {
+        "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"}
+    }
+}
+```
+
+As you can guess James has access to script `logs.py` but John doesn't.
+
+#
+
 ### Inputing files from Chat App to script
 
 We've empowered the `input` function with the ability to input files from a message attachment.
@@ -305,39 +338,6 @@ Here is the log records example
 2019-09-09 12:04:03,990 - channel=slack,id=james,user=james,msg=iss look,action=run skill,skill=iss
 2019-09-09 12:09:06,551 - channel=slack,id=james,user=james,msg=sin,action=run skill,skill=sin
 ```
-
-#
-
-### User access control
-
-We use subfolders to manage access to scripts.
-Let's see the example.
-
-Folders structure:
-
-```
-|-- skills
-    |-- hello.py
-    |-- iss.py
-    |-- admin
-        |-- logs.py
-```
-
-Config file, pay attenton to James `groups`:
-```json
-{
-    "users": {
-        "james": {"groups":["admin"], "channels": {"slack" : "james"}},
-        "john": {"channels": {"slack": "john"}}
-    },
-    
-    "channels": {
-        "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"}
-    }
-}
-```
-
-As you can guess James has access to script `logs.py` but John doesn't.
 
 #
 
