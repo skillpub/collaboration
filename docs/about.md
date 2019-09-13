@@ -4,7 +4,7 @@ The Skillpub is **technology and collaboration tool** for personal or team tasks
 
 #  Core Technology :gem:
 
-The technology is to take **script writen in high level language** (Python), analize its inputs/outputs, images or graphs display, other interactions with user and **build connectors to this script from Chat Apps like Slack, Telegram, and others**. Imagine that you described your skill as a script and gave it to **software robot**. And from that moment it is his skill, you and your colugues can ask him any time to run this skill and give results.
+The technology is to take **script written in high level language** (Python), analize its inputs/outputs, images or graphs display, other interactions with user and **build connectors to this script from Chat Apps like Slack, Telegram, and others**. Imagine that you described your skill as a script and gave it to **software robot**. And from that moment it is his skill, you and your colugues can ask him any time to run this skill and give results.
 As a script author you don't think about how to connect with different Chat Apps, how to control access, how to monitor that script works fine when colegues run it, how to save logs, how to balance load if there are too many coleagues running script and so on, Skillpub does all of this so author doesn't need to think about what is that software robot, how it works, Skillpub will understand script by itself. Author **just drop script to the Skillpub platform and tell to Skillpub which colleagues have the right to run this script**.
 
 # Pricing 
