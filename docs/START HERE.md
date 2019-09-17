@@ -17,7 +17,8 @@ These are more detailed topics
 And these are how-to guides
  - [SSH](guides/ssh.md#ssh)
  
- we will add these soon
+
+coming soon
  - API's
  - Data Sources
  - Analytical Reports
