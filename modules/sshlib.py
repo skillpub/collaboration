@@ -43,6 +43,7 @@ class SSH:
     
     def cmd(self, command):
         if len(command) == 0: return(0)
+        if command == '^C': command = '\x03'
         command += "\n"
         try:
             self.shell.send(command)
