@@ -14,7 +14,7 @@ SSHKEY = "../.ssh/nasahelper-ssh-key"
 NAME2IP_LIST = {"us01" : "XXX.XXX.XXX.XXX"}
                 
 argv = ' '.join(sys.argv)
-
+    
 command = next((command for command in commands if command in argv), None)
 server = next((server for server in servers if server in argv), None)
 
@@ -22,7 +22,7 @@ def ssh_print(s):
     print(s)
 
 if command is None: 
-    print("tell me what to do, one of these commands - {}".format(', '.join(commands)))
+    print("tell me what to do, one of these commands :\n ssh {}".format(',\n ssh '.join(commands)))
     sys.exit()
     
 if command == "help":
