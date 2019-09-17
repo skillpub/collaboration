@@ -7,22 +7,29 @@ import sys
 import time
 from PIL import Image
 
-commands = sys.argv
+commands = ["look", "location", "people", "speed average", "speed"]
+argv = ' '.join(sys.argv)
 
-if "look" in commands:
+command = next((command for command in commands if command in argv), None)
+
+if command is None: 
+    print("tell me what to do, one of these commands :\n iss {}".format(',\n iss '.join(commands)))
+    sys.exit()
+
+if command == "look":
     wiki_page = urlopen("https://en.wikipedia.org/wiki/International_Space_Station").read().decode()
     first_image = urlopen('https:'+re.findall('src="(//upload.wikimedia.org/wikipedia.+?\.jpg)"',wiki_page)[0])
     image = Image.open(first_image)
     image.show()
 
-if "location" in commands:
+if command == "location":
 
     data = json.loads(urlopen("http://api.open-notify.org/iss-now.json").read())['iss_position']
 
     print('*ISS Current Location* :earth_americas: :satellite:')
     print('https://www.google.com/maps/search/?api=1&query={},{}'.format(data['latitude'],data['longitude']))
 
-if "people" in commands:
+if command == "people":
     
     print('*People In Space* :face_with_cowboy_hat:')
     data = json.loads(urlopen("http://api.open-notify.org/astros.json").read())
@@ -42,11 +49,11 @@ if "people" in commands:
                 emoji = ''
             print(astro['name'] + emoji)
 
-if "speed" in commands:
+if "speed" in command:
     
     from math import sin, cos, sqrt, atan2, radians
     
-    if "average" in commands:
+    if "average" in command:
         answer = input("what time interval? (in minutes)")
         try:
             measure_interval = 60*int(answer)
