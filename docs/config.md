@@ -80,8 +80,21 @@ Supported channels are "slack" and "telegram".
 **Telegram token** is the token to access the HTTPS Telegram API. 
 You can get it from **Telegram bot [BotFather](https://telegram.me/botfather)**. Read more [here](https://core.telegram.org/bots).
 
-#### Slack Requests
-sdcsdc
+#### Slack Interactive Components (buttons)
+
+To use Interactive Components like buttons in Slack, you'll need to configure the Request URL.
+- Head to your [app's settings page](https://api.slack.com/apps) and click the **Interactive Components** feature in the navigation menu.
+- Switch the Interactivity toggle to on.
+- Configure the Request URL: http://XXX.XXX.XXX.XXX:5000/slackaction, where XXX.XXX.XXX.XXX is public IP of your server where Skillpub is running.
+- Click the Save Changes button.
+
+If you need to change default port (5000) do it as follow
+
+```json
+"channels": {
+    "slack": {"token": "xoxb-XXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXX", "requests": {"port": 65000}}
+}
+```
 
 #
 
