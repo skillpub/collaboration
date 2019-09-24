@@ -7,10 +7,6 @@ The Skillpub is **technology and collaboration tool** for personal or team tasks
 The technology is to take **script written in high level language** (Python), analyze its inputs/outputs, images or graphs display, other interactions with user and **build connectors to this script from Chat Apps like Slack, Telegram, and others**. Imagine that you described your skill as a script and gave it to **software robot**. And from that moment it is his skill, you and your colleagues can ask him any time to run this skill and give results.
 As a script author you don't think about how to connect with different Chat Apps, how to control access, how to monitor that script works fine when colleagues run it, how to save logs, how to balance load if there are too many colleagues running script and so on, Skillpub does all of this so author doesn't need to think about what is that software robot, how it works, Skillpub will understand script by itself. Author **just drop script to the Skillpub platform and tell to Skillpub which colleagues have the right to run this script**.
 
-# Pricing 
-
-The Skillpub is free to use with unlimited functionality :tada: for all Chat Apps except Slack, **for Slack - :keycap_ten: users are free**, for more users, you need to buy a license - **59:heavy_dollar_sign:per month** for an unlimited number of users. Contact **[sales@skillpub.org](mailto:sales@skillpub.org)** to get the license.
-
 # For whom 
 
 For teams who are in charge of Servers, Applications, API's, Data Bases, Analytical reports and other information technology items. 
