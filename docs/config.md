@@ -82,11 +82,9 @@ You can get it from **Telegram bot [BotFather](https://telegram.me/botfather)**.
 
 #### Slack Interactive Components (buttons)
 
-To use Interactive Components like buttons in Slack, you'll need to configure the Request URL.
-- Head to your [app's settings page](https://api.slack.com/apps) and click the **Interactive Components** feature in the navigation menu.
-- Switch the Interactivity toggle to on.
-- Configure the Request URL: http://XXX.XXX.XXX.XXX:5000/slackaction, where XXX.XXX.XXX.XXX is public IP of your server where Skillpub is running.
-- Click the Save Changes button.
+To use Interactive Components like buttons in Slack, you'll need to configure the Request URL (when you push the button Slack sends request to this URL). Skillpub supports only HTTP request, so better (for security reason) you configure HTTPS proxy wich recieve requests from Slack and forward them to Skillpub as http requests.  
+
+The default Skillpub web service to listen requests is http://[IP or domain]:5000/slackaction, where [IP or domain] is your server where Skillpub is running.
 
 If you need to change default port (5000) do it as follow
 
@@ -95,6 +93,13 @@ If you need to change default port (5000) do it as follow
     "slack": {"token": "xoxb-XXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXX", "requests": {"port": 65000}}
 }
 ```
+
+In Slack do these steps to route requests to your proxy
+
+- Head to your [app's settings page](https://api.slack.com/apps) and click the **Interactive Components** feature in the navigation menu.
+- Switch the Interactivity toggle to on.
+- Configure the Request URL: https://[your proxy domain]/path/to/somewhere 
+- Click the Save Changes button.
 
 #
 
