@@ -190,7 +190,7 @@ else:
 
 In Slack it looks like
 
-<img src="images/buttons.png" width="100%" hight="100%"> 
+<img src="images/buttons.png" width="50%" hight="50%"> 
 
 To use the buttons in Slack you need to configure "Request URL" in "Interactive Components" settings of your Slack App.
 Read here for more info.
