@@ -171,6 +171,11 @@ In Slack it looks like
 
 ### Buttons
 
+To use the buttons in Slack you need to configure "Request URL" in "Interactive Components" settings of your Slack App.
+Read [here](config.md#slack-interactive-components-buttons) for more info.
+
+For buttons in Telegram there is no additional settings.
+
 To show buttons in Chat App just do it as follow.
 
 Example - *skills/buttons.py*
@@ -191,11 +196,6 @@ else:
 In Slack it looks like
 
 <img src="images/buttons.png" width="50%" hight="50%"> 
-
-To use the buttons in Slack you need to configure "Request URL" in "Interactive Components" settings of your Slack App.
-Read [here](config.md#slack-interactive-components-buttons) for more info.
-
-For buttons in Telegram there is no additional settings.
 
 #
 
