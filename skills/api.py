@@ -1,4 +1,4 @@
-```uses web API```
+'''uses web API'''
 from urllib.request import urlopen
 from urllib.error import HTTPError
 import json
