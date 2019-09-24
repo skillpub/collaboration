@@ -40,7 +40,7 @@ except HTTPError as e:
 
 Let's see how our example script looks in Slack, *[skills/api.py](../../skills/api.py)*
 
-<img src="../images/api.png" width="70%" hight="70%">
+<img src="../images/api.png" width="40%" hight="40%">
 
 Another example with library ```requests```
 
