@@ -82,7 +82,7 @@ You can get it from **Telegram bot [BotFather](https://telegram.me/botfather)**.
 
 #### Slack Interactive Components (buttons)
 
-To use Interactive Components like buttons in Slack, you'll need to configure the Request URL (when you push the button Slack sends request to this URL). Skillpub supports only HTTP request, so better (for security reason) you configure HTTPS proxy wich recieve requests from Slack and forward them to Skillpub as http requests.  
+To use Interactive Components like buttons in Slack, you'll need to configure the Request URL (when you push the button Slack sends request to this URL). Skillpub supports only HTTP request, since it was born to work in internal networks, so better you configure HTTPS proxy wich recieve requests from Slack and forward them to Skillpub as http requests.  
 
 The default Skillpub web service to listen requests is http://[IP or domain]:5000/slackaction, where [IP or domain] is your server where Skillpub is running.
 
