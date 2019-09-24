@@ -80,6 +80,9 @@ Supported channels are "slack" and "telegram".
 **Telegram token** is the token to access the HTTPS Telegram API. 
 You can get it from **Telegram bot [BotFather](https://telegram.me/botfather)**. Read more [here](https://core.telegram.org/bots).
 
+#### Slack Requests
+sdcsdc
+
 #
 
 ### Publishers
