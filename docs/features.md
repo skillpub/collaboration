@@ -7,6 +7,7 @@
 - [Text outputs redirection to Chat App](#text-outputs-redirection-to-chat-app)
 - [Images/graphs redirection to Chat App](#imagesgraphs-redirection-to-chat-app)
 - [Sending files from the script to Chat App as attachments](#sending-files-from-the-script-to-chat-app-as-attachments)
+- [Buttons](#buttons)
 - [Input requests redirection to Chat App](#input-requests-redirection-to-chat-app)
 - [User access control](#user-access-control)
 - [Inputing files from Chat App to script](#inputing-files-from-chat-app-to-script)
@@ -165,6 +166,36 @@ The syntax is `print({"filename.ext": "file content, string or bytes"})`
 In Slack it looks like
 
 <img src="images/patents.png" width="100%" hight="100%"> 
+
+#
+
+### Buttons
+
+To show buttons in Chat App just do it as follow.
+
+Example - *skills/buttons.py*
+
+```python
+'''shows the buttons'''
+
+print({'buttons':['get all things done', 'stop the world', 'take a breath']})
+
+choice = input('your choice?')
+
+if len(choice) > 0: 
+    print(choice + ' is great choice!')
+else:
+    print('not to choose is also a choice')
+```
+
+In Slack it looks like
+
+<img src="images/buttons.png" width="100%" hight="100%"> 
+
+To use the buttons in Slack you need to configure "Request URL" in "Interactive Components" settings of your Slack App.
+Read here for more info.
+
+For buttons in Telegram there is no additional settings.
 
 #
 
