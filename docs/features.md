@@ -23,6 +23,8 @@
 Pyhton file in folder *skills* can be run from Chat App. 
 Example - *skills/hello.py*
 
+Pyhton script *hello.py*
+
 ```python
 '''the "Hello!" skill'''
 
