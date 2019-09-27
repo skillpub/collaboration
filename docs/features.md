@@ -28,12 +28,12 @@ Pyhton script *hello.py*
 ```python
 '''the "Hello!" skill'''
 
-print("Hello from Outerspace! :wave:")
+print("Hello from Outer Space! :wave:")
 ```
  
 And how it looks in Slack
 
-<img src="images/hello.png" width="40%" hight="40%">
+<img src="images/hello_icons.png" width="40%" hight="40%">
 
 #
 
