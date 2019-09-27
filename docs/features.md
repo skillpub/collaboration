@@ -20,10 +20,10 @@
 
 ### Running a regular Python script by the request via Chat App, with no extra coding for Chat App interfacing
 
-Pyhton file in folder *skills* can be run from Chat App. 
+Python file in folder *skills* can be run from Chat App. 
 Example - *skills/hello.py*
 
-Pyhton script *hello.py*
+Python script *hello.py*
 
 ```python
 '''the "Hello!" skill'''
