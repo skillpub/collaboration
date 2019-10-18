@@ -2,7 +2,7 @@
 import os, random
 from PIL import Image
 
-panel_url = "http://10.10.10.10:3000/render/d-solo/XXXXXX/demo?orgId=1&panelId={}&width=1000&height=500"
+panel_url = "http://127.0.0.1:3000/render/d-solo/XXXXXX/demo?orgId=1&panelId={}&width=1000&height=500"
 api_key = "Authorization: Bearer eyJrXXXXXXXXXXXXXXXXXXXXXXXXXXXXiOjF9"
 cookie = "Cookie: grafana_session=5384XXXXXXXXXXXXXXeae"
 auth_header = api_key # or cookie, whatever will work with your Grafana installation
