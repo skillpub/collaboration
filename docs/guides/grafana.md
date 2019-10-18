@@ -16,7 +16,7 @@ Right click the request in the Network tab, and select "Copy as cURL"
 
 This will give you the curl command with cookie.
 
-In 19 lines of code bellow *[skills/grafa.py](../../skills/grafa.py)* we put *Direct link rendered image* into string panel_url with panelId as argument```panelId={}```, then we show all panels with id stored in array ```panels```.
+In 19 lines of code bellow *[skills/grafa.py](../../skills/grafa.py)* we put *Direct link rendered image* into string panel_url with panelId as argument```panelId={}```, then we show all panels with ids stored in array ```panels```.
 
 ``` python
 '''Grafana dashboards'''
