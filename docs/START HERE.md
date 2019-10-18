@@ -17,6 +17,7 @@ These are more detailed topics
 And these are **how-to guides**
  - [SSH](guides/ssh.md#ssh)
  - [API's](guides/api.md#apis)
+ - [Grafana](guides/grafana.md#grafana)
 
 
 coming soon
