@@ -40,4 +40,8 @@ for panelId in panels:
     os.remove(file_tmp)
 ```
 
+In Slack it looks like
+
+<img src="../images/grafa_2.png" width="60%" hight="60%">
+
 
