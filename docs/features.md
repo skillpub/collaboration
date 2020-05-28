@@ -49,7 +49,7 @@ With simple configuration bellow
     
     "channels": {
         "telegram": {"token": "123456789:QWER_1234567890qwertyu-iopasdfghjklz"},
-        "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456}
+        "slack": {"token": "xoxb-qwertyuiopa-123456789012-asdfghjklzxcvbnm123456"}
     }
 }
 ```
